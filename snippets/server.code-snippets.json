@@ -17,32 +17,32 @@
         "description": "Create a New Server"
     },
     "Extend a Server": {
-        "prefix": "extsrv",
-        "body": [
-          "'use strict';",
-          "",
-          "var server = require('server');",
-          "server.extend(module.superModule);",
-          "",
-          "server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {",
-          "    ${4}",
-          "    res.${5|render,json,xml,page,redirect,getViewData,setViewData,log,print|}(${6});",
-          "    next();",
-          "});",
-          "",
-          "module.exports = server.exports();"
-        ],
-        "description": "Extend a Server"
-      },
-      "Extend a Route": {
-        "prefix": "extroute",
-        "body": [
-          "server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {",
-          "    ${4}",
-          "    res.${5|render,json,xml,page,redirect,getViewData,setViewData,log,print|}(${6});",
-          "    next();",
-          "});"
-        ],
-        "description": "Extend a Route"
-      }
+      "prefix": "extsrv",
+      "body": [
+        "'use strict';",
+        "",
+        "var server = require('server');",
+        "server.extend(module.superModule);",
+        "",
+        "server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {",
+        "    ${4}",
+        "    res.${5|render,json,xml,page,redirect,getViewData,setViewData,log,print|}(${6});",
+        "    next();",
+        "});",
+        "",
+        "module.exports = server.exports();"
+      ],
+      "description": "Extend a Server"
+    },
+    "Extend a Route": {
+      "prefix": "extroute",
+      "body": [
+        "server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {",
+        "    ${4}",
+        "    res.${5|render,json,xml,page,redirect,getViewData,setViewData,log,print|}(${6});",
+        "    next();",
+        "});"
+      ],
+      "description": "Extend a Route"
+    }
 }

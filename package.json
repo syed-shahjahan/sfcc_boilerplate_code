@@ -4,6 +4,7 @@
     "description": "SFCC Boiler Plate for easy code",
     "version": "0.0.1",
     "publisher": "Syed Shahjahan",
+    "author": {"name": "Syed Shahjahan"},
     "engines": {
         "vscode": "^1.46.0"
     },
