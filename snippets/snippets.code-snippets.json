@@ -1,0 +1,30 @@
+{
+    "LocalServiceRegistry Service": {
+        "prefix": "@rservice",
+        "body": [
+            "var $service = dw.svc.LocalServiceRegistry.createService(\"$2\", {",
+            "    mockCall : function(service, params) {",
+            "        return {};",
+            "    },",
+            "    createRequest: function (service, params) {",
+            "        if (params.URL && !empty(params.URL)) {",
+            "            service.URL = params.URL;",
+            "        }",
+            "        if (params.body) {",
+            "             return params.body;",
+            "        }",
+            "        return service;",
+            "    },",
+            "    parseResponse: function (service, serviceResponse) {",
+            "        return serviceResponse;",
+            "    },",
+            "    getRequestLogMessage: function(serviceRequest) {",
+            "        return serviceRequest;",
+            "    },",
+            "    getResponseLogMessage: function(serviceResponse) {",
+            "        return serviceResponse;",
+            "    }",
+            "});"
+        ]
+    }
+}

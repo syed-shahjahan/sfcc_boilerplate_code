@@ -1,0 +1,9 @@
+{
+    "CSVStreamReader": {
+        "prefix": "s-c-csv-rd",
+        "body": [
+          "const CSVStreamReader = require('dw/io/CSVStreamReader');"
+        ],
+        "description": "CSVStreamReader"
+    }
+}

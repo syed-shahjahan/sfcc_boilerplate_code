@@ -1,0 +1,16 @@
+{
+    "Get SitePreference Value": {
+        "prefix": "sitepref",
+        "body": [
+          "${dw.system.Site.getCurrent().getCustomPreferenceValue('${1}')}"
+        ],
+        "description": "Get SitePreference Value"
+      },
+      "Get OrganizationPreference Value": {
+        "prefix": "syspref",
+        "body": [
+          "${'${pref}' in dw.system.System.getPreferences().getCustom() ? dw.system.System.getPreferences().getCustom()['${pref}'] : ''}"
+        ],
+        "description": "Get Organization Preference Value"
+      }
+}

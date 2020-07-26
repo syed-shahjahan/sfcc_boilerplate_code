@@ -1,0 +1,33 @@
+{
+    "name": "sfccboilerplate",
+    "displayName": "SFCC BoilerPlate",
+    "description": "SFCC Boiler Plate for easy code",
+    "version": "0.0.1",
+    "publisher": "Syed Shahjahan",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/packages.code-snippets.json"
+            },
+            {
+                "language": "isml",
+                "path": "./snippets/isml.code-snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/server.code-snippets.json"
+            }
+        ]
+    }
+}
