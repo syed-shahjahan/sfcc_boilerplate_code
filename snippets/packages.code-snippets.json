@@ -1,9 +1,2928 @@
 {
-    "CSVStreamReader": {
-        "prefix": "s-c-csv-rd",
-        "body": [
+  "APIException": {
+      "prefix": "c-api-err",
+      "body": [
+          "const APIException = require('APIException');"
+      ],
+      "description": "Class APIException"
+  },
+  "Array": {
+      "prefix": "c-arr",
+      "body": [
+          "const Array = require('Array');"
+      ],
+      "description": "Class Array"
+  },
+  "Boolean": {
+      "prefix": "c-bol",
+      "body": [
+          "const Boolean = require('Boolean');"
+      ],
+      "description": "Class Boolean"
+  },
+  "ConversionError": {
+      "prefix": "c-conv-error",
+      "body": [
+          "const ConversionError = require('ConversionError');"
+      ],
+      "description": "Class ConversionError"
+  },
+  "Date": {
+      "prefix": "c-dt",
+      "body": [
+          "const Date = require('Date');"
+      ],
+      "description": "Class Date"
+  },
+  "Error": {
+      "prefix": "c-err",
+      "body": [
+          "const Error = require('Error');"
+      ],
+      "description": "Class Error"
+  },
+  "EvalError": {
+      "prefix": "c-ev-err",
+      "body": [
+          "const EvalError = require('EvalError');"
+      ],
+      "description": "Class EvalError"
+  },
+  "Fault": {
+      "prefix": "c-fault",
+      "body": [
+          "const Fault = require('Fault');"
+      ],
+      "description": "Class Fault"
+  },
+  "Function": {
+      "prefix": "c-fun",
+      "body": [
+          "const Function = require('Function');"
+      ],
+      "description": "Class Function"
+  },
+  "Generator": {
+      "prefix": "c-gen",
+      "body": [
+          "const Generator = require('Generator');"
+      ],
+      "description": "Class Generator"
+  },
+  "InternalError": {
+      "prefix": "c-int-err",
+      "body": [
+          "const InternalError = require('InternalError');"
+      ],
+      "description": "Class InternalError"
+  },
+  "IOError": {
+      "prefix": "c-io-err",
+      "body": [
+          "const IOError = require('IOError');"
+      ],
+      "description": "Class IOError"
+  },
+  "Iterator": {
+      "prefix": "c-it",
+      "body": [
+          "const Iterator = require('Iterator');"
+      ],
+      "description": "Class Iterator"
+  },
+  "JSON": {
+      "prefix": "c-json",
+      "body": [
+          "const JSON = require('JSON');"
+      ],
+      "description": "Class JSON"
+  },
+  "Math": {
+      "prefix": "c-mat",
+      "body": [
+          "const Math = require('Math');"
+      ],
+      "description": "Class Math"
+  },
+  "Module": {
+      "prefix": "c-mdl",
+      "body": [
+          "const Module = require('Module');"
+      ],
+      "description": "Class Module"
+  },
+  "Namespace": {
+      "prefix": "c-ns",
+      "body": [
+          "const Namespace = require('Namespace');"
+      ],
+      "description": "Class Namespace"
+  },
+  "Number": {
+      "prefix": "c-num",
+      "body": [
+          "const Number = require('Number');"
+      ],
+      "description": "Class Number"
+  },
+  "Object": {
+      "prefix": "c-obj",
+      "body": [
+          "const Object = require('Object');"
+      ],
+      "description": "Class Object"
+  },
+  "QName": {
+      "prefix": "c-qnm",
+      "body": [
+          "const QName = require('QName');"
+      ],
+      "description": "Class QName"
+  },
+  "RangeError": {
+      "prefix": "c-rng-err",
+      "body": [
+          "const RangeError = require('RangeError');"
+      ],
+      "description": "Class RangeError"
+  },
+  "ReferenceError": {
+      "prefix": "c-ref-err",
+      "body": [
+          "const ReferenceError = require('ReferenceError');"
+      ],
+      "description": "Class ReferenceError"
+  },
+  "RegExp": {
+      "prefix": "c-regexp",
+      "body": [
+          "const RegExp = require('RegExp');"
+      ],
+      "description": "Class RegExp"
+  },
+  "StopIteration": {
+      "prefix": "c-stp-it",
+      "body": [
+          "const StopIteration = require('StopIteration');"
+      ],
+      "description": "Class StopIteration"
+  },
+  "String": {
+      "prefix": "c-str",
+      "body": [
+          "const String = require('String');"
+      ],
+      "description": "Class String"
+  },
+  "SyntaxError": {
+      "prefix": "c-syn-err",
+      "body": [
+          "const SyntaxError = require('SyntaxError');"
+      ],
+      "description": "Class SyntaxError"
+  },
+  "SystemError": {
+      "prefix": "c-syerr",
+      "body": [
+          "const SystemError = require('SystemError');"
+      ],
+      "description": "Class SystemError"
+  },
+  "TypeError": {
+      "prefix": "c-ty-err",
+      "body": [
+          "const TypeError = require('TypeError');"
+      ],
+      "description": "Class TypeError"
+  },
+  "URIError": {
+      "prefix": "c-uri-err",
+      "body": [
+          "const URIError = require('URIError');"
+      ],
+      "description": "Class URIError"
+  },
+  "XML": {
+      "prefix": "c-xml",
+      "body": [
+          "const XML = require('XML');"
+      ],
+      "description": "Class XML"
+  },
+  "XMLList": {
+      "prefix": "c-xml-ls",
+      "body": [
+          "const XMLList = require('XMLList');"
+      ],
+      "description": "Class XMLList"
+  },
+  "XMLStreamError": {
+      "prefix": "c-xml-err",
+      "body": [
+          "const XMLStreamError = require('XMLStreamError');"
+      ],
+      "description": "Class XMLStreamError"
+  },
+  "dw/alert": {
+      "prefix": "pk-alrt",
+      "body": [
+          "const alert = require('dw/alert');"
+      ],
+      "description": "Class alert"
+  },
+  "dw/alert/Alert": {
+      "prefix": "c-alrt",
+      "body": [
+          "const Alert = require('dw/alert/Alert');"
+      ],
+      "description": "Class Alert"
+  },
+  "dw/alert/Alerts": {
+      "prefix": "c-alrts",
+      "body": [
+          "const Alerts = require('dw/alert/Alerts');"
+      ],
+      "description": "Class Alerts"
+  },
+  "dw/campaign/ABTestMgr": {
+      "prefix": "c-ab-tst-mgr",
+      "body": [
+          "const ABTestMgr = require('dw/campaign/ABTestMgr');"
+      ],
+      "description": "Class ABTestMgr"
+  },
+  "dw/campaign/ABTest": {
+      "prefix": "c-ab-tst",
+      "body": [
+          "const ABTest = require('dw/campaign/ABTest');"
+      ],
+      "description": "Class ABTest"
+  },
+  "dw/campaign/ABTestSegment": {
+      "prefix": "c-ab-seg",
+      "body": [
+          "const ABTestSegment = require('dw/campaign/ABTestSegment');"
+      ],
+      "description": "Class ABTestSegment"
+  },
+  "dw/campaign/AmountDiscount": {
+      "prefix": "c-amt-disc",
+      "body": [
+          "const AmountDiscount = require('dw/campaign/AmountDiscount');"
+      ],
+      "description": "Class AmountDiscount"
+  },
+  "dw/campaign/ApproachingDiscount": {
+      "prefix": "c-appro-disc",
+      "body": [
+          "const ApproachingDiscount = require('dw/campaign/ApproachingDiscount');"
+      ],
+      "description": "Class ApproachingDiscount"
+  },
+  "dw/campaign/BonusChoiceDiscount": {
+      "prefix": "c-bnchoice-dsct",
+      "body": [
+          "const BonusChoiceDiscount = require('dw/campaign/BonusChoiceDiscount');"
+      ],
+      "description": "Class BonusChoiceDiscount"
+  },
+  "dw/campaign/BonusDiscount": {
+      "prefix": "c-bndisc",
+      "body": [
+          "const BonusDiscount = require('dw/campaign/BonusDiscount');"
+      ],
+      "description": "Class BonusDiscount"
+  },
+  "dw/campaign/Campaign": {
+      "prefix": "c-cmp",
+      "body": [
+          "const Campaign = require('dw/campaign/Campaign');"
+      ],
+      "description": "Class Campaign"
+  },
+  "dw/campaign/CampaignMgr": {
+      "prefix": "c-cmp-mgr",
+      "body": [
+          "const CampaignMgr = require('dw/campaign/CampaignMgr');"
+      ],
+      "description": "Class CampaignMgr"
+  },
+  "dw/campaign/CampaignStatusCodes": {
+      "prefix": "c-cmp-st-code",
+      "body": [
+          "const CampaignStatusCodes = require('dw/campaign/CampaignStatusCodes');"
+      ],
+      "description": "Class CampaignStatusCodes"
+  },
+  "dw/campaign/Coupon": {
+      "prefix": "c-cpn",
+      "body": [
+          "const Coupon = require('dw/campaign/Coupon');"
+      ],
+      "description": "Class Coupon"
+  },
+  "dw/campaign/CouponMgr": {
+      "prefix": "c-cpn-mgr",
+      "body": [
+          "const CouponMgr = require('dw/campaign/CouponMgr');"
+      ],
+      "description": "Class CouponMgr"
+  },
+  "dw/campaign/CouponRedemption": {
+      "prefix": "c-cpn-rdm",
+      "body": [
+          "const CouponRedemption = require('dw/campaign/CouponRedemption');"
+      ],
+      "description": "Class CouponRedemption"
+  },
+  "dw/campaign/CouponStatusCodes": {
+      "prefix": "c-cpn-st-code",
+      "body": [
+          "const CouponStatusCodes = require('dw/campaign/CouponStatusCodes');"
+      ],
+      "description": "Class CouponStatusCodes"
+  },
+  "dw/campaign/Discount": {
+      "prefix": "c-disc",
+      "body": [
+          "const Discount = require('dw/campaign/Discount');"
+      ],
+      "description": "Class Discount"
+  },
+  "dw/campaign/DiscountPlan": {
+      "prefix": "c-disc-pln",
+      "body": [
+          "const DiscountPlan = require('dw/campaign/DiscountPlan');"
+      ],
+      "description": "Class DiscountPlan"
+  },
+  "dw/campaign/FixedPriceDiscount": {
+      "prefix": "c-fxd-pri-disc",
+      "body": [
+          "const FixedPriceDiscount = require('dw/campaign/FixedPriceDiscount');"
+      ],
+      "description": "Class FixedPriceDiscount"
+  },
+  "dw/campaign/FixedPriceShippingDiscount": {
+      "prefix": "c-fxd-pri-sp-disc",
+      "body": [
+          "const FixedPriceShippingDiscount = require('dw/campaign/FixedPriceShippingDiscount');"
+      ],
+      "description": "Class FixedPriceShippingDiscount"
+  },
+  "dw/campaign/FreeDiscount": {
+      "prefix": "c-fxd-disc",
+      "body": [
+          "const FreeDiscount = require('dw/campaign/FreeDiscount');"
+      ],
+      "description": "Class FreeDiscount"
+  },
+  "dw/campaign/FreeShippingDiscount": {
+      "prefix": "c-fxd-sp-disc",
+      "body": [
+          "const FreeShippingDiscount = require('dw/campaign/FreeShippingDiscount');"
+      ],
+      "description": "Class FreeShippingDiscount"
+  },
+  "dw/campaign/PercentageDiscount": {
+      "prefix": "c-per-disc",
+      "body": [
+          "const PercentageDiscount = require('dw/campaign/PercentageDiscount');"
+      ],
+      "description": "Class PercentageDiscount"
+  },
+  "dw/campaign/PercentageOptionDiscount": {
+      "prefix": "c-per-opt-disc",
+      "body": [
+          "const PercentageOptionDiscount = require('dw/campaign/PercentageOptionDiscount');"
+      ],
+      "description": "Class PercentageOptionDiscount"
+  },
+  "dw/campaign/PriceBookPriceDiscount": {
+      "prefix": "c-abtstmgr",
+      "body": [
+          "const PriceBookPriceDiscount = require('dw/campaign/PriceBookPriceDiscount');"
+      ],
+      "description": "Class PriceBookPriceDiscount"
+  },
+  "dw/campaign/Promotion": {
+      "prefix": "c-prom",
+      "body": [
+          "const Promotion = require('dw/campaign/Promotion');"
+      ],
+      "description": "Class Promotion"
+  },
+  "dw/campaign/PromotionMgr": {
+      "prefix": "c-prom-mgr",
+      "body": [
+          "const PromotionMgr = require('dw/campaign/PromotionMgr');"
+      ],
+      "description": "Class PromotionMgr"
+  },
+  "dw/campaign/PromotionPlan": {
+      "prefix": "c-prom-pln",
+      "body": [
+          "const PromotionPlan = require('dw/campaign/PromotionPlan');"
+      ],
+      "description": "Class PromotionPlan"
+  },
+  "dw/campaign/SlotContent": {
+      "prefix": "c-slot-cnt",
+      "body": [
+          "const SlotContent = require('dw/campaign/SlotContent');"
+      ],
+      "description": "Class SlotContent"
+  },
+  "dw/campaign/SourceCodeGroup": {
+      "prefix": "c-src-cd-grp",
+      "body": [
+          "const SourceCodeGroup = require('dw/campaign/SourceCodeGroup');"
+      ],
+      "description": "Class SourceCodeGroup"
+  },
+  "dw/campaign/SourceCodeInfo": {
+      "prefix": "c-src-cd-inf",
+      "body": [
+          "const SourceCodeInfo = require('dw/campaign/SourceCodeInfo');"
+      ],
+      "description": "Class SourceCodeInfo"
+  },
+  "dw/campaign/SourceCodeStatusCodes": {
+      "prefix": "c-src-cd-st-cds",
+      "body": [
+          "const SourceCodeStatusCodes = require('dw/campaign/SourceCodeStatusCodes');"
+      ],
+      "description": "Class SourceCodeStatusCodes"
+  },
+  "dw/campaign/TotalFixedPriceDiscount": {
+      "prefix": "c-tot-fxd-pri-disc",
+      "body": [
+          "const TotalFixedPriceDiscount = require('dw/campaign/TotalFixedPriceDiscount');"
+      ],
+      "description": "Class TotalFixedPriceDiscount"
+  },
+  "dw/catalog": {
+      "prefix": "pk-cata",
+      "body": [
+          "const catalog = require('dw/catalog');"
+      ],
+      "description": "Class catalog"
+  },
+  "dw/catalog/Catalog": {
+      "prefix": "c-cata",
+      "body": [
+          "const Catalog = require('dw/catalog/Catalog');"
+      ],
+      "description": "Class Catalog"
+  },
+  "dw/catalog/CatalogMgr": {
+      "prefix": "c-cata-mgr",
+      "body": [
+          "const CatalogMgr = require('dw/catalog/CatalogMgr');"
+      ],
+      "description": "Class CatalogMgr"
+  },
+  "dw/catalog/Category": {
+      "prefix": "c-cate",
+      "body": [
+          "const Category = require('dw/catalog/Category');"
+      ],
+      "description": "Class Category"
+  },
+  "dw/catalog/CategoryAssignment": {
+      "prefix": "c-cate-asgn",
+      "body": [
+          "const CategoryAssignment = require('dw/catalog/CategoryAssignment');"
+      ],
+      "description": "Class CategoryAssignment"
+  },
+  "dw/catalog/CategoryLink": {
+      "prefix": "c-cate-lnk",
+      "body": [
+          "const CategoryLink = require('dw/catalog/CategoryLink');"
+      ],
+      "description": "Class CategoryLink"
+  },
+  "dw/catalog/PriceBook": {
+      "prefix": "c-pri-b",
+      "body": [
+          "const PriceBook = require('dw/catalog/PriceBook');"
+      ],
+      "description": "Class PriceBook"
+  },
+  "dw/catalog/PriceBookMgr": {
+      "prefix": "c-pri-mgr",
+      "body": [
+          "const PriceBookMgr = require('dw/catalog/PriceBookMgr');"
+      ],
+      "description": "Class PriceBookMgr"
+  },
+  "dw/catalog/Product": {
+      "prefix": "c-prd",
+      "body": [
+          "const Product = require('dw/catalog/Product');"
+      ],
+      "description": "Class Product"
+  },
+  "dw/catalog/ProductActiveData": {
+      "prefix": "c-prd-ac-da",
+      "body": [
+          "const ProductActiveData = require('dw/catalog/ProductActiveData');"
+      ],
+      "description": "Class ProductActiveData"
+  },
+  "dw/catalog/ProductAttributeModel": {
+      "prefix": "c-prd-at-mdl",
+      "body": [
+          "const ProductAttributeModel = require('dw/catalog/ProductAttributeModel');"
+      ],
+      "description": "Class ProductAttributeModel"
+  },
+  "dw/catalog/ProductAvailabilityLevels": {
+      "prefix": "c-prd-av-lvl",
+      "body": [
+          "const ProductAvailabilityLevels = require('dw/catalog/ProductAvailabilityLevels');"
+      ],
+      "description": "Class ProductAvailabilityLevels"
+  },
+  "dw/catalog/ProductAvailabilityModel": {
+      "prefix": "c-prd-av-mdl",
+      "body": [
+          "const ProductAvailabilityModel = require('dw/catalog/ProductAvailabilityModel');"
+      ],
+      "description": "Class ProductAvailabilityModel"
+  },
+  "dw/catalog/ProductInventoryList": {
+      "prefix": "c-prd-inv-lst",
+      "body": [
+          "const ProductInventoryList = require('dw/catalog/ProductInventoryList');"
+      ],
+      "description": "Class ProductInventoryList"
+  },
+  "dw/catalog/ProductInventoryMgr": {
+      "prefix": "c-inv-mgr",
+      "body": [
+          "const ProductInventoryMgr = require('dw/catalog/ProductInventoryMgr');"
+      ],
+      "description": "Class ProductInventoryMgr"
+  },
+  "dw/catalog/ProductInventoryRecord": {
+      "prefix": "c-prd-inv-rcd",
+      "body": [
+          "const ProductInventoryRecord = require('dw/catalog/ProductInventoryRecord');"
+      ],
+      "description": "Class ProductInventoryRecord"
+  },
+  "dw/catalog/ProductLink": {
+      "prefix": "c-prd-lnk",
+      "body": [
+          "const ProductLink = require('dw/catalog/ProductLink');"
+      ],
+      "description": "Class ProductLink"
+  },
+  "dw/catalog/ProductMgr": {
+      "prefix": "c-prd-mgr",
+      "body": [
+          "const ProductMgr = require('dw/catalog/ProductMgr');"
+      ],
+      "description": "Class ProductMgr"
+  },
+  "dw/catalog/ProductOption": {
+      "prefix": "c-prd-opt",
+      "body": [
+          "const ProductOption = require('dw/catalog/ProductOption');"
+      ],
+      "description": "Class ProductOption"
+  },
+  "dw/catalog/ProductOptionModel": {
+      "prefix": "c-prd-opt-mdl",
+      "body": [
+          "const ProductOptionModel = require('dw/catalog/ProductOptionModel');"
+      ],
+      "description": "Class ProductOptionModel"
+  },
+  "dw/catalog/ProductOptionValue": {
+      "prefix": "c-prd-opt-vl",
+      "body": [
+          "const ProductOptionValue = require('dw/catalog/ProductOptionValue');"
+      ],
+      "description": "Class ProductOptionValue"
+  },
+  "dw/catalog/ProductPriceInfo": {
+      "prefix": "c-pp-inf",
+      "body": [
+          "const ProductPriceInfo = require('dw/catalog/ProductPriceInfo');"
+      ],
+      "description": "Class ProductPriceInfo"
+  },
+  "dw/catalog/ProductPriceModel": {
+      "prefix": "c-pp-mdl",
+      "body": [
+          "const ProductPriceModel = require('dw/catalog/ProductPriceModel');"
+      ],
+      "description": "Class ProductPriceModel"
+  },
+  "dw/catalog/ProductPriceTable": {
+      "prefix": "c-pp-tbl",
+      "body": [
+          "const ProductPriceTable = require('dw/catalog/ProductPriceTable');"
+      ],
+      "description": "Class ProductPriceTable"
+  },
+  "dw/catalog/ProductSearchHit": {
+      "prefix": "c-prd-se-h",
+      "body": [
+          "const ProductSearchHit = require('dw/catalog/ProductSearchHit');"
+      ],
+      "description": "Class ProductSearchHit"
+  },
+  "dw/catalog/ProductSearchModel": {
+      "prefix": "c-prd-se-mdl",
+      "body": [
+          "const ProductSearchModel = require('dw/catalog/ProductSearchModel');"
+      ],
+      "description": "Class ProductSearchModel"
+  },
+  "dw/catalog/ProductSearchRefinementDefinition": {
+      "prefix": "c-prd-se-rf-def",
+      "body": [
+          "const ProductSearchRefinementDefinition = require('dw/catalog/ProductSearchRefinementDefinition');"
+      ],
+      "description": "Class ProductSearchRefinementDefinition"
+  },
+  "dw/catalog/ProductSearchRefinements": {
+      "prefix": "c-prd-se-rf",
+      "body": [
+          "const ProductSearchRefinements = require('dw/catalog/ProductSearchRefinements');"
+      ],
+      "description": "Class ProductSearchRefinements"
+  },
+  "dw/catalog/ProductSearchRefinementValue": {
+      "prefix": "c-prd-se-rf-vl",
+      "body": [
+          "const ProductSearchRefinementValue = require('dw/catalog/ProductSearchRefinementValue');"
+      ],
+      "description": "Class ProductSearchRefinementValue"
+  },
+  "dw/catalog/ProductVariationAttribute": {
+      "prefix": "c-prd-var-at",
+      "body": [
+          "const ProductVariationAttribute = require('dw/catalog/ProductVariationAttribute');"
+      ],
+      "description": "Class ProductVariationAttribute"
+  },
+  "dw/catalog/ProductVariationAttributeValue": {
+      "prefix": "c-prd-at-vl",
+      "body": [
+          "const ProductVariationAttributeValue = require('dw/catalog/ProductVariationAttributeValue');"
+      ],
+      "description": "Class ProductVariationAttributeValue"
+  },
+  "dw/catalog/ProductVariationModel": {
+      "prefix": "c-prd-var-mdl",
+      "body": [
+          "const ProductVariationModel = require('dw/catalog/ProductVariationModel');"
+      ],
+      "description": "Class ProductVariationModel"
+  },
+  "dw/catalog/Recommendation": {
+      "prefix": "c-recom",
+      "body": [
+          "const Recommendation = require('dw/catalog/Recommendation');"
+      ],
+      "description": "Class Recommendation"
+  },
+  "dw/catalog/SearchModel": {
+      "prefix": "c-se-mdl",
+      "body": [
+          "const SearchModel = require('dw/catalog/SearchModel');"
+      ],
+      "description": "Class SearchModel"
+  },
+  "dw/catalog/SearchRefinementDefinition": {
+      "prefix": "c-se-rf-def",
+      "body": [
+          "const SearchRefinementDefinition = require('dw/catalog/SearchRefinementDefinition');"
+      ],
+      "description": "Class SearchRefinementDefinition"
+  },
+  "dw/catalog/SearchRefinements": {
+      "prefix": "c-se-rf",
+      "body": [
+          "const SearchRefinements = require('dw/catalog/SearchRefinements');"
+      ],
+      "description": "Class SearchRefinements"
+  },
+  "dw/catalog/SearchRefinementValue": {
+      "prefix": "c-se-rf-vl",
+      "body": [
+          "const SearchRefinementValue = require('dw/catalog/SearchRefinementValue');"
+      ],
+      "description": "Class SearchRefinementValue"
+  },
+  "dw/catalog/SortingOption": {
+      "prefix": "c-srt-opt",
+      "body": [
+          "const SortingOption = require('dw/catalog/SortingOption');"
+      ],
+      "description": "Class SortingOption"
+  },
+  "dw/catalog/SortingRule": {
+      "prefix": "c-srt-rl",
+      "body": [
+          "const SortingRule = require('dw/catalog/SortingRule');"
+      ],
+      "description": "Class SortingRule"
+  },
+  "dw/catalog/Store": {
+      "prefix": "c-stor",
+      "body": [
+          "const Store = require('dw/catalog/Store');"
+      ],
+      "description": "Class Store"
+  },
+  "dw/catalog/StoreGroup": {
+      "prefix": "c-stor-grp",
+      "body": [
+          "const StoreGroup = require('dw/catalog/StoreGroup');"
+      ],
+      "description": "Class StoreGroup"
+  },
+  "dw/catalog/StoreMgr": {
+      "prefix": "c-stor-mgr",
+      "body": [
+          "const StoreMgr = require('dw/catalog/StoreMgr');"
+      ],
+      "description": "Class StoreMgr"
+  },
+  "dw/catalog/Variant": {
+      "prefix": "c-vnt",
+      "body": [
+          "const Variant = require('dw/catalog/Variant');"
+      ],
+      "description": "Class Variant"
+  },
+  "dw/catalog/VariationGroup": {
+      "prefix": "c-var-grp",
+      "body": [
+          "const VariationGroup = require('dw/catalog/VariationGroup');"
+      ],
+      "description": "Class VariationGroup"
+  },
+  "dw/content": {
+      "prefix": "pk-cnt",
+      "body": [
+          "const content = require('dw/content');"
+      ],
+      "description": "Class content"
+  },
+  "dw/content/Content": {
+      "prefix": "c-cnt",
+      "body": [
+          "const Content = require('dw/content/Content');"
+      ],
+      "description": "Class Content"
+  },
+  "dw/content/ContentMgr": {
+      "prefix": "c-cnt-mgr",
+      "body": [
+          "const ContentMgr = require('dw/content/ContentMgr');"
+      ],
+      "description": "Class ContentMgr"
+  },
+  "dw/content/ContentSearchModel": {
+      "prefix": "c-cnt-se-mdl",
+      "body": [
+          "const ContentSearchModel = require('dw/content/ContentSearchModel');"
+      ],
+      "description": "Class ContentSearchModel"
+  },
+  "dw/content/ContentSearchRefinementDefinition": {
+      "prefix": "c-cnt-se-rf-def",
+      "body": [
+          "const ContentSearchRefinementDefinition = require('dw/content/ContentSearchRefinementDefinition');"
+      ],
+      "description": "Class ContentSearchRefinementDefinition"
+  },
+  "dw/content/ContentSearchRefinements": {
+      "prefix": "c-cnt-se-rf",
+      "body": [
+          "const ContentSearchRefinements = require('dw/content/ContentSearchRefinements');"
+      ],
+      "description": "Class ContentSearchRefinements"
+  },
+  "dw/content/ContentSearchRefinementValue": {
+      "prefix": "c-cnt-se-rf-vl",
+      "body": [
+          "const ContentSearchRefinementValue = require('dw/content/ContentSearchRefinementValue');"
+      ],
+      "description": "Class ContentSearchRefinementValue"
+  },
+  "dw/content/Folder": {
+      "prefix": "c-fld",
+      "body": [
+          "const Folder = require('dw/content/Folder');"
+      ],
+      "description": "Class Folder"
+  },
+  "dw/content/Library": {
+      "prefix": "c-lib",
+      "body": [
+          "const Library = require('dw/content/Library');"
+      ],
+      "description": "Class Library"
+  },
+  "dw/content/MarkupText": {
+      "prefix": "c-mtxt",
+      "body": [
+          "const MarkupText = require('dw/content/MarkupText');"
+      ],
+      "description": "Class MarkupText"
+  },
+  "dw/content/MediaFile": {
+      "prefix": "c-md",
+      "body": [
+          "const MediaFile = require('dw/content/MediaFile');"
+      ],
+      "description": "Class MediaFile"
+  },
+  "dw/crypto": {
+      "prefix": "pk-cryp",
+      "body": [
+          "const crypto = require('dw/crypto');"
+      ],
+      "description": "Class crypto"
+  },
+  "dw/crypto/CertificateRef": {
+      "prefix": "c-cert-ref",
+      "body": [
+          "const CertificateRef = require('dw/crypto/CertificateRef');"
+      ],
+      "description": "Class CertificateRef"
+  },
+  "dw/crypto/Cipher": {
+      "prefix": "c-cip",
+      "body": [
+          "const Cipher = require('dw/crypto/Cipher');"
+      ],
+      "description": "Class Cipher"
+  },
+  "dw/crypto/Encoding": {
+      "prefix": "c-enc",
+      "body": [
+          "const Encoding = require('dw/crypto/Encoding');"
+      ],
+      "description": "Class Encoding"
+  },
+  "dw/crypto/KeyRef": {
+      "prefix": "c-key",
+      "body": [
+          "const KeyRef = require('dw/crypto/KeyRef');"
+      ],
+      "description": "Class KeyRef"
+  },
+  "dw/crypto/Mac": {
+      "prefix": "c-mac",
+      "body": [
+          "const Mac = require('dw/crypto/Mac');"
+      ],
+      "description": "Class Mac"
+  },
+  "dw/crypto/MessageDigest": {
+      "prefix": "c-msg-dig",
+      "body": [
+          "const MessageDigest = require('dw/crypto/MessageDigest');"
+      ],
+      "description": "Class MessageDigest"
+  },
+  "dw/crypto/SecureRandom": {
+      "prefix": "c-secran",
+      "body": [
+          "const SecureRandom = require('dw/crypto/SecureRandom');"
+      ],
+      "description": "Class SecureRandom"
+  },
+  "dw/crypto/Signature": {
+      "prefix": "c-sig",
+      "body": [
+          "const Signature = require('dw/crypto/Signature');"
+      ],
+      "description": "Class Signature"
+  },
+  "dw/customer": {
+      "prefix": "pk-cstmr",
+      "body": [
+          "const customer = require('dw/customer');"
+      ],
+      "description": "Class customer"
+  },
+  "dw/customer/AddressBook": {
+      "prefix": "c-ad-bk",
+      "body": [
+          "const AddressBook = require('dw/customer/AddressBook');"
+      ],
+      "description": "Class AddressBook"
+  },
+  "dw/customer/AgentUserMgr": {
+      "prefix": "c-agnt-mgr",
+      "body": [
+          "const AgentUserMgr = require('dw/customer/AgentUserMgr');"
+      ],
+      "description": "Class AgentUserMgr"
+  },
+  "dw/customer/AgentUserStatusCodes": {
+      "prefix": "c-agnt-st-cd",
+      "body": [
+          "const AgentUserStatusCodes = require('dw/customer/AgentUserStatusCodes');"
+      ],
+      "description": "Class AgentUserStatusCodes"
+  },
+  "dw/customer/AuthenticationStatus": {
+      "prefix": "c-auth-st",
+      "body": [
+          "const AuthenticationStatus = require('dw/customer/AuthenticationStatus');"
+      ],
+      "description": "Class AuthenticationStatus"
+  },
+  "dw/customer/Credentials": {
+      "prefix": "c-cred",
+      "body": [
+          "const Credentials = require('dw/customer/Credentials');"
+      ],
+      "description": "Class Credentials"
+  },
+  "dw/customer/Customer": {
+      "prefix": "c-cstmr",
+      "body": [
+          "const Customer = require('dw/customer/Customer');"
+      ],
+      "description": "Class Customer"
+  },
+  "dw/customer/CustomerActiveData": {
+      "prefix": "c-cstmr-ac-da",
+      "body": [
+          "const CustomerActiveData = require('dw/customer/CustomerActiveData');"
+      ],
+      "description": "Class CustomerActiveData"
+  },
+  "dw/customer/CustomerAddress": {
+      "prefix": "c-cstmr",
+      "body": [
+          "const CustomerAddress = require('dw/customer/CustomerAddress');"
+      ],
+      "description": "Class CustomerAddress"
+  },
+  "dw/customer/CustomerGroup": {
+      "prefix": "c-cstmr-grp",
+      "body": [
+          "const CustomerGroup = require('dw/customer/CustomerGroup');"
+      ],
+      "description": "Class CustomerGroup"
+  },
+  "dw/customer/CustomerList": {
+      "prefix": "c-cstmr-lst",
+      "body": [
+          "const CustomerList = require('dw/customer/CustomerList');"
+      ],
+      "description": "Class CustomerList"
+  },
+  "dw/customer/CustomerMgr": {
+      "prefix": "c-cstmr-mgr",
+      "body": [
+          "const CustomerMgr = require('dw/customer/CustomerMgr');"
+      ],
+      "description": "Class CustomerMgr"
+  },
+  "dw/customer/CustomerPasswordConstraints": {
+      "prefix": "c-cstmr-cstmr-pass-constraints",
+      "body": [
+          "const CustomerPasswordConstraints = require('dw/customer/CustomerPasswordConstraints');"
+      ],
+      "description": "Class CustomerPasswordConstraints"
+  },
+  "dw/customer/CustomerPaymentInstrument": {
+      "prefix": "c-cstmr-cstmr-pay-i",
+      "body": [
+          "const CustomerPaymentInstrument = require('dw/customer/CustomerPaymentInstrument');"
+      ],
+      "description": "Class CustomerPaymentInstrument"
+  },
+  "dw/customer/CustomerStatusCodes": {
+      "prefix": "c-cstmr-cstmr-st-cd",
+      "body": [
+          "const CustomerStatusCodes = require('dw/customer/CustomerStatusCodes');"
+      ],
+      "description": "Class CustomerStatusCodes"
+  },
+  "dw/customer/EncryptedObject": {
+      "prefix": "c-encr-obj",
+      "body": [
+          "const EncryptedObject = require('dw/customer/EncryptedObject');"
+      ],
+      "description": "Class EncryptedObject"
+  },
+  "dw/customer/ExternalProfile": {
+      "prefix": "c-ext-prf",
+      "body": [
+          "const ExternalProfile = require('dw/customer/ExternalProfile');"
+      ],
+      "description": "Class ExternalProfile"
+  },
+  "dw/customer/OrderHistory": {
+      "prefix": "c-od-h",
+      "body": [
+          "const OrderHistory = require('dw/customer/OrderHistory');"
+      ],
+      "description": "Class OrderHistory"
+  },
+  "dw/customer/ProductList": {
+      "prefix": "c-prd-lst",
+      "body": [
+          "const ProductList = require('dw/customer/ProductList');"
+      ],
+      "description": "Class ProductList"
+  },
+  "dw/customer/ProductListItem": {
+      "prefix": "c-prd-lst-item",
+      "body": [
+          "const ProductListItem = require('dw/customer/ProductListItem');"
+      ],
+      "description": "Class ProductListItem"
+  },
+  "dw/customer/ProductListItemPurchase": {
+      "prefix": "c-prd-lst-item-pur",
+      "body": [
+          "const ProductListItemPurchase = require('dw/customer/ProductListItemPurchase');"
+      ],
+      "description": "Class ProductListItemPurchase"
+  },
+  "dw/customer/ProductListMgr": {
+      "prefix": "c-prd-lst-mgr",
+      "body": [
+          "const ProductListMgr = require('dw/customer/ProductListMgr');"
+      ],
+      "description": "Class ProductListMgr"
+  },
+  "dw/customer/ProductListRegistrant": {
+      "prefix": "c-prd-lst-reg",
+      "body": [
+          "const ProductListRegistrant = require('dw/customer/ProductListRegistrant');"
+      ],
+      "description": "Class ProductListRegistrant"
+  },
+  "dw/customer/Profile": {
+      "prefix": "c-prf",
+      "body": [
+          "const Profile = require('dw/customer/Profile');"
+      ],
+      "description": "Class Profile"
+  },
+  "dw/customer/Wallet": {
+      "prefix": "c-wal",
+      "body": [
+          "const Wallet = require('dw/customer/Wallet');"
+      ],
+      "description": "Class Wallet"
+  },
+  "dw/customer/oauth/OAuthAccessTokenResponse": {
+      "prefix": "c-o-auth-tkn-res",
+      "body": [
+          "const OAuthAccessTokenResponse = require('dw/customer/oauth/OAuthAccessTokenResponse');"
+      ],
+      "description": "Class OAuthAccessTokenResponse"
+  },
+  "dw/customer/oauth/OAuthFinalizedResponse": {
+      "prefix": "c-o-auth-fnl-res",
+      "body": [
+          "const OAuthFinalizedResponse = require('dw/customer/oauth/OAuthFinalizedResponse');"
+      ],
+      "description": "Class OAuthFinalizedResponse"
+  },
+  "dw/customer/oauth/OAuthLoginFlowMgr": {
+      "prefix": "c-o-auth-lgn-mgr",
+      "body": [
+          "const OAuthLoginFlowMgr = require('dw/customer/oauth/OAuthLoginFlowMgr');"
+      ],
+      "description": "Class OAuthLoginFlowMgr"
+  },
+  "dw/customer/oauth/OAuthUserInfoResponse": {
+      "prefix": "c-o-auth-usr",
+      "body": [
+          "const OAuthUserInfoResponse = require('dw/customer/oauth/OAuthUserInfoResponse');"
+      ],
+      "description": "Class OAuthUserInfoResponse"
+  },
+  "dw/experience/AspectAttributeValidationException": {
+      "prefix": "c-aspect-attr-valid-excep",
+      "body": [
+          "const AspectAttributeValidationException = require('dw/experience/AspectAttributeValidationException');"
+      ],
+      "description": "Class AspectAttributeValidationException"
+  },
+  "dw/experience/Component": {
+      "prefix": "c-comp",
+      "body": [
+          "const Component = require('dw/experience/Component');"
+      ],
+      "description": "Class Component"
+  },
+  "dw/experience/ComponentRenderSettings": {
+      "prefix": "c-comp-rndr",
+      "body": [
+          "const ComponentRenderSettings = require('dw/experience/ComponentRenderSettings');"
+      ],
+      "description": "Class ComponentRenderSettings"
+  },
+  "dw/experience/ComponentScriptContext": {
+      "prefix": "c-comp-script",
+      "body": [
+          "const ComponentScriptContext = require('dw/experience/ComponentScriptContext');"
+      ],
+      "description": "Class ComponentScriptContext"
+  },
+  "dw/experience/CustomEditor": {
+      "prefix": "c-cst-edi",
+      "body": [
+          "const CustomEditor = require('dw/experience/CustomEditor');"
+      ],
+      "description": "Class CustomEditor"
+  },
+  "dw/experience/CustomEditorResources": {
+      "prefix": "c-cst-edi-rsc",
+      "body": [
+          "const CustomEditorResources = require('dw/experience/CustomEditorResources');"
+      ],
+      "description": "Class CustomEditorResources"
+  },
+  "dw/experience/Page": {
+      "prefix": "c-pg",
+      "body": [
+          "const Page = require('dw/experience/Page');"
+      ],
+      "description": "Class Page"
+  },
+  "dw/experience/PageMgr": {
+      "prefix": "c-pg-mgr",
+      "body": [
+          "const PageMgr = require('dw/experience/PageMgr');"
+      ],
+      "description": "Class PageMgr"
+  },
+  "dw/experience/PageScriptContext": {
+      "prefix": "c-pg-script",
+      "body": [
+          "const PageScriptContext = require('dw/experience/PageScriptContext');"
+      ],
+      "description": "Class PageScriptContext"
+  },
+  "dw/experience/Region": {
+      "prefix": "c-rgn",
+      "body": [
+          "const Region = require('dw/experience/Region');"
+      ],
+      "description": "Class Region"
+  },
+  "dw/experience/RegionRenderSettings": {
+      "prefix": "c-rgn-rndr",
+      "body": [
+          "const RegionRenderSettings = require('dw/experience/RegionRenderSettings');"
+      ],
+      "description": "Class RegionRenderSettings"
+  },
+  "dw/experience/cms/CMSRecord": {
+      "prefix": "c-cms",
+      "body": [
+          "const CMSRecord = require('dw/experience/cms/CMSRecord');"
+      ],
+      "description": "Class CMSRecord"
+  },
+  "dw/experience/image/FocalPoint": {
+      "prefix": "c-foc-pt",
+      "body": [
+          "const FocalPoint = require('dw/experience/image/FocalPoint');"
+      ],
+      "description": "Class FocalPoint"
+  },
+  "dw/experience/image/Image": {
+      "prefix": "c-img",
+      "body": [
+          "const Image = require('dw/experience/image/Image');"
+      ],
+      "description": "Class Image"
+  },
+  "dw/experience/image/ImageMetaData": {
+      "prefix": "c-img-mt-da",
+      "body": [
+          "const ImageMetaData = require('dw/experience/image/ImageMetaData');"
+      ],
+      "description": "Class ImageMetaData"
+  },
+  "dw/extensions/applepay/ApplePayHookResult": {
+      "prefix": "c-app-hok-rs",
+      "body": [
+          "const ApplePayHookResult = require('dw/extensions/applepay/ApplePayHookResult');"
+      ],
+      "description": "Class ApplePayHookResult"
+  },
+  "dw/extensions/applepay/ApplePayHooks": {
+      "prefix": "c-app-hok",
+      "body": [
+          "const ApplePayHooks = require('dw/extensions/applepay/ApplePayHooks');"
+      ],
+      "description": "Class ApplePayHooks"
+  },
+  "dw/extensions/facebook/FacebookFeedHooks": {
+      "prefix": "c-fb-fd-hok",
+      "body": [
+          "const FacebookFeedHooks = require('dw/extensions/facebook/FacebookFeedHooks');"
+      ],
+      "description": "Class FacebookFeedHooks"
+  },
+  "dw/extensions/facebook/FacebookProduct": {
+      "prefix": "c-fb-prd",
+      "body": [
+          "const FacebookProduct = require('dw/extensions/facebook/FacebookProduct');"
+      ],
+      "description": "Class FacebookProduct"
+  },
+  "dw/extensions/paymentapi/PaymentApiHooks": {
+      "prefix": "c-pay-hok-api",
+      "body": [
+          "const PaymentApiHooks = require('dw/extensions/paymentapi/PaymentApiHooks');"
+      ],
+      "description": "Class PaymentApiHooks"
+  },
+  "dw/extensions/paymentrequest/PaymentRequestHookResult": {
+      "prefix": "c-pay-req-hok-rs",
+      "body": [
+          "const PaymentRequestHookResult = require('dw/extensions/paymentrequest/PaymentRequestHookResult');"
+      ],
+      "description": "Class PaymentRequestHookResult"
+  },
+  "dw/extensions/paymentrequest/PaymentRequestHooks": {
+      "prefix": "c-pay-req-hok",
+      "body": [
+          "const PaymentRequestHooks = require('dw/extensions/paymentrequest/PaymentRequestHooks');"
+      ],
+      "description": "Class PaymentRequestHooks"
+  },
+  "dw/extensions/pinterest/PinterestAvailability": {
+      "prefix": "c-pin-avail",
+      "body": [
+          "const PinterestAvailability = require('dw/extensions/pinterest/PinterestAvailability');"
+      ],
+      "description": "Class PinterestAvailability"
+  },
+  "dw/extensions/pinterest/PinterestFeedHooks": {
+      "prefix": "c-pin-pin-feed-hooks",
+      "body": [
+          "const PinterestFeedHooks = require('dw/extensions/pinterest/PinterestFeedHooks');"
+      ],
+      "description": "Class PinterestFeedHooks"
+  },
+  "dw/extensions/pinterest/PinterestOrder": {
+      "prefix": "c-pin-od",
+      "body": [
+          "const PinterestOrder = require('dw/extensions/pinterest/PinterestOrder');"
+      ],
+      "description": "Class PinterestOrder"
+  },
+  "dw/extensions/pinterest/PinterestOrderHooks": {
+      "prefix": "c-pin-od-hok",
+      "body": [
+          "const PinterestOrderHooks = require('dw/extensions/pinterest/PinterestOrderHooks');"
+      ],
+      "description": "Class PinterestOrderHooks"
+  },
+  "dw/extensions/pinterest/PinterestProduct": {
+      "prefix": "c-pin-prd",
+      "body": [
+          "const PinterestProduct = require('dw/extensions/pinterest/PinterestProduct');"
+      ],
+      "description": "Class PinterestProduct"
+  },
+  "dw/io/CSVStreamReader": {
+      "prefix": "c-csv-rd",
+      "body": [
           "const CSVStreamReader = require('dw/io/CSVStreamReader');"
-        ],
-        "description": "CSVStreamReader"
-    }
+      ],
+      "description": "Class CSVStreamReader"
+  },
+  "dw/io/CSVStreamWriter": {
+      "prefix": "c-csv-wr",
+      "body": [
+          "const CSVStreamWriter = require('dw/io/CSVStreamWriter');"
+      ],
+      "description": "Class CSVStreamWriter"
+  },
+  "dw/io/File": {
+      "prefix": "c-fl",
+      "body": [
+          "const File = require('dw/io/File');"
+      ],
+      "description": "Class File"
+  },
+  "dw/io/FileReader": {
+      "prefix": "c-fl-rd",
+      "body": [
+          "const FileReader = require('dw/io/FileReader');"
+      ],
+      "description": "Class FileReader"
+  },
+  "dw/io/FileWriter": {
+      "prefix": "c-fl-wr",
+      "body": [
+          "const FileWriter = require('dw/io/FileWriter');"
+      ],
+      "description": "Class FileWriter"
+  },
+  "dw/io/InputStream": {
+      "prefix": "c-ips",
+      "body": [
+          "const InputStream = require('dw/io/InputStream');"
+      ],
+      "description": "Class InputStream"
+  },
+  "dw/io/OutputStream": {
+      "prefix": "c-ops",
+      "body": [
+          "const OutputStream = require('dw/io/OutputStream');"
+      ],
+      "description": "Class OutputStream"
+  },
+  "dw/io/PrintWriter": {
+      "prefix": "c-pwr",
+      "body": [
+          "const PrintWriter = require('dw/io/PrintWriter');"
+      ],
+      "description": "Class PrintWriter"
+  },
+  "dw/io/RandomAccessFileReader": {
+      "prefix": "c-ran",
+      "body": [
+          "const RandomAccessFileReader = require('dw/io/RandomAccessFileReader');"
+      ],
+      "description": "Class RandomAccessFileReader"
+  },
+  "dw/io/Reader": {
+      "prefix": "c-rd",
+      "body": [
+          "const Reader = require('dw/io/Reader');"
+      ],
+      "description": "Class Reader"
+  },
+  "dw/io/StringWriter": {
+      "prefix": "c-srt-wr",
+      "body": [
+          "const StringWriter = require('dw/io/StringWriter');"
+      ],
+      "description": "Class StringWriter"
+  },
+  "dw/io/Writer": {
+      "prefix": "c-wr",
+      "body": [
+          "const Writer = require('dw/io/Writer');"
+      ],
+      "description": "Class Writer"
+  },
+  "dw/io/XMLIndentingStreamWriter": {
+      "prefix": "c-xml-ind",
+      "body": [
+          "const XMLIndentingStreamWriter = require('dw/io/XMLIndentingStreamWriter');"
+      ],
+      "description": "Class XMLIndentingStreamWriter"
+  },
+  "dw/io/XMLStreamConstants": {
+      "prefix": "c-xml-const",
+      "body": [
+          "const XMLStreamConstants = require('dw/io/XMLStreamConstants');"
+      ],
+      "description": "Class XMLStreamConstants"
+  },
+  "dw/io/XMLStreamReader": {
+      "prefix": "c-xml-rd",
+      "body": [
+          "const XMLStreamReader = require('dw/io/XMLStreamReader');"
+      ],
+      "description": "Class XMLStreamReader"
+  },
+  "dw/io/XMLStreamWriter": {
+      "prefix": "c-xml-wr",
+      "body": [
+          "const XMLStreamWriter = require('dw/io/XMLStreamWriter');"
+      ],
+      "description": "Class XMLStreamWriter"
+  },
+  "dw/job/JobExecution": {
+      "prefix": "c-job-exe",
+      "body": [
+          "const JobExecution = require('dw/job/JobExecution');"
+      ],
+      "description": "Class JobExecution"
+  },
+  "dw/job/JobStepExecution": {
+      "prefix": "c-job-stp-exe",
+      "body": [
+          "const JobStepExecution = require('dw/job/JobStepExecution');"
+      ],
+      "description": "Class JobStepExecution"
+  },
+  "dw/net/FTPClient": {
+      "prefix": "c-ftp-cli",
+      "body": [
+          "const FTPClient = require('dw/net/FTPClient');"
+      ],
+      "description": "Class FTPClient"
+  },
+  "dw/net/FTPFileInfo": {
+      "prefix": "c-ftp-fl-inf",
+      "body": [
+          "const FTPFileInfo = require('dw/net/FTPFileInfo');"
+      ],
+      "description": "Class FTPFileInfo"
+  },
+  "dw/net/HTTPClient": {
+      "prefix": "c-hc",
+      "body": [
+          "const HTTPClient = require('dw/net/HTTPClient');"
+      ],
+      "description": "Class HTTPClient"
+  },
+  "dw/net/HTTPRequestPart": {
+      "prefix": "c-http-req-p",
+      "body": [
+          "const HTTPRequestPart = require('dw/net/HTTPRequestPart');"
+      ],
+      "description": "Class HTTPRequestPart"
+  },
+  "dw/net/Mail": {
+      "prefix": "c-mail",
+      "body": [
+          "const Mail = require('dw/net/Mail');"
+      ],
+      "description": "Class Mail"
+  },
+  "dw/net/SFTPClient": {
+      "prefix": "c-sftp-cli",
+      "body": [
+          "const SFTPClient = require('dw/net/SFTPClient');"
+      ],
+      "description": "Class SFTPClient"
+  },
+  "dw/net/SFTPFileInfo": {
+      "prefix": "c-sftp-fl-inf",
+      "body": [
+          "const SFTPFileInfo = require('dw/net/SFTPFileInfo');"
+      ],
+      "description": "Class SFTPFileInfo"
+  },
+  "dw/net/WebDAVClient": {
+      "prefix": "c-web-cli",
+      "body": [
+          "const WebDAVClient = require('dw/net/WebDAVClient');"
+      ],
+      "description": "Class WebDAVClient"
+  },
+  "dw/net/WebDAVFileInfo": {
+      "prefix": "c-web-fl-inf",
+      "body": [
+          "const WebDAVFileInfo = require('dw/net/WebDAVFileInfo');"
+      ],
+      "description": "Class WebDAVFileInfo"
+  },
+  "dw/object/ActiveData": {
+      "prefix": "c-ac-da",
+      "body": [
+          "const ActiveData = require('dw/object/ActiveData');"
+      ],
+      "description": "Class ActiveData"
+  },
+  "dw/object/CustomAttributes": {
+      "prefix": "c-cst-at",
+      "body": [
+          "const CustomAttributes = require('dw/object/CustomAttributes');"
+      ],
+      "description": "Class CustomAttributes"
+  },
+  "dw/object/CustomObject": {
+      "prefix": "c-cst-obj",
+      "body": [
+          "const CustomObject = require('dw/object/CustomObject');"
+      ],
+      "description": "Class CustomObject"
+  },
+  "dw/object/CustomObjectMgr": {
+      "prefix": "c-cst-obj-mgr",
+      "body": [
+          "const CustomObjectMgr = require('dw/object/CustomObjectMgr');"
+      ],
+      "description": "Class CustomObjectMgr"
+  },
+  "dw/object/Extensible": {
+      "prefix": "c-ext",
+      "body": [
+          "const Extensible = require('dw/object/Extensible');"
+      ],
+      "description": "Class Extensible"
+  },
+  "dw/object/ExtensibleObject": {
+      "prefix": "c-ext-obj",
+      "body": [
+          "const ExtensibleObject = require('dw/object/ExtensibleObject');"
+      ],
+      "description": "Class ExtensibleObject"
+  },
+  "dw/object/Note": {
+      "prefix": "c-nt",
+      "body": [
+          "const Note = require('dw/object/Note');"
+      ],
+      "description": "Class Note"
+  },
+  "dw/object/ObjectAttributeDefinition": {
+      "prefix": "c-obj-at-def",
+      "body": [
+          "const ObjectAttributeDefinition = require('dw/object/ObjectAttributeDefinition');"
+      ],
+      "description": "Class ObjectAttributeDefinition"
+  },
+  "dw/object/ObjectAttributeGroup": {
+      "prefix": "c-obj-at-grp",
+      "body": [
+          "const ObjectAttributeGroup = require('dw/object/ObjectAttributeGroup');"
+      ],
+      "description": "Class ObjectAttributeGroup"
+  },
+  "dw/object/ObjectAttributeValueDefinition": {
+      "prefix": "c-obj-at-vl-def",
+      "body": [
+          "const ObjectAttributeValueDefinition = require('dw/object/ObjectAttributeValueDefinition');"
+      ],
+      "description": "Class ObjectAttributeValueDefinition"
+  },
+  "dw/object/ObjectTypeDefinition": {
+      "prefix": "c-obj-ty-def",
+      "body": [
+          "const ObjectTypeDefinition = require('dw/object/ObjectTypeDefinition');"
+      ],
+      "description": "Class ObjectTypeDefinition"
+  },
+  "dw/object/PersistentObject": {
+      "prefix": "c-per",
+      "body": [
+          "const PersistentObject = require('dw/object/PersistentObject');"
+      ],
+      "description": "Class PersistentObject"
+  },
+  "dw/object/SimpleExtensible": {
+      "prefix": "c-sim-ext",
+      "body": [
+          "const SimpleExtensible = require('dw/object/SimpleExtensible');"
+      ],
+      "description": "Class SimpleExtensible"
+  },
+  "dw/object/SystemObjectMgr": {
+      "prefix": "c-syobj-mgr",
+      "body": [
+          "const SystemObjectMgr = require('dw/object/SystemObjectMgr');"
+      ],
+      "description": "Class SystemObjectMgr"
+  },
+  "dw/order/AbstractItem": {
+      "prefix": "c-abi",
+      "body": [
+          "const AbstractItem = require('dw/order/AbstractItem');"
+      ],
+      "description": "Class AbstractItem"
+  },
+  "dw/order/AbstractItemCtnr": {
+      "prefix": "c-abi-ctnr",
+      "body": [
+          "const AbstractItemCtnr = require('dw/order/AbstractItemCtnr');"
+      ],
+      "description": "Class AbstractItemCtnr"
+  },
+  "dw/order/Appeasement": {
+      "prefix": "c-appsmnt",
+      "body": [
+          "const Appeasement = require('dw/order/Appeasement');"
+      ],
+      "description": "Class Appeasement"
+  },
+  "dw/order/AppeasementItem": {
+      "prefix": "c-appsmnt-itm",
+      "body": [
+          "const AppeasementItem = require('dw/order/AppeasementItem');"
+      ],
+      "description": "Class AppeasementItem"
+  },
+  "dw/order/Basket": {
+      "prefix": "c-bsk",
+      "body": [
+          "const Basket = require('dw/order/Basket');"
+      ],
+      "description": "Class Basket"
+  },
+  "dw/order/BasketMgr": {
+      "prefix": "c-bsk-mgr",
+      "body": [
+          "const BasketMgr = require('dw/order/BasketMgr');"
+      ],
+      "description": "Class BasketMgr"
+  },
+  "dw/order/BonusDiscountLineItem": {
+      "prefix": "c-bsn-disc-li",
+      "body": [
+          "const BonusDiscountLineItem = require('dw/order/BonusDiscountLineItem');"
+      ],
+      "description": "Class BonusDiscountLineItem"
+  },
+  "dw/order/CouponLineItem": {
+      "prefix": "c-cpn-li",
+      "body": [
+          "const CouponLineItem = require('dw/order/CouponLineItem');"
+      ],
+      "description": "Class CouponLineItem"
+  },
+  "dw/order/CreateAgentBasketLimitExceededException": {
+      "prefix": "c-crt-agnt-bsk-lm-exced-err",
+      "body": [
+          "const CreateAgentBasketLimitExceededException = require('dw/order/CreateAgentBasketLimitExceededException');"
+      ],
+      "description": "Class CreateAgentBasketLimitExceededException"
+  },
+  "dw/order/CreateBasketFromOrderException": {
+      "prefix": "c-crt-bsk-od-err",
+      "body": [
+          "const CreateBasketFromOrderException = require('dw/order/CreateBasketFromOrderException');"
+      ],
+      "description": "Class CreateBasketFromOrderException"
+  },
+  "dw/order/CreateCouponLineItemException": {
+      "prefix": "c-crt-cpn-li-err",
+      "body": [
+          "const CreateCouponLineItemException = require('dw/order/CreateCouponLineItemException');"
+      ],
+      "description": "Class CreateCouponLineItemException"
+  },
+  "dw/order/CreateOrderException": {
+      "prefix": "c-crt-od-err",
+      "body": [
+          "const CreateOrderException = require('dw/order/CreateOrderException');"
+      ],
+      "description": "Class CreateOrderException"
+  },
+  "dw/order/GiftCertificate": {
+      "prefix": "c-gc",
+      "body": [
+          "const GiftCertificate = require('dw/order/GiftCertificate');"
+      ],
+      "description": "Class GiftCertificate"
+  },
+  "dw/order/GiftCertificateLineItem": {
+      "prefix": "c-gc-li",
+      "body": [
+          "const GiftCertificateLineItem = require('dw/order/GiftCertificateLineItem');"
+      ],
+      "description": "Class GiftCertificateLineItem"
+  },
+  "dw/order/GiftCertificateMgr": {
+      "prefix": "c-gc-mgr",
+      "body": [
+          "const GiftCertificateMgr = require('dw/order/GiftCertificateMgr');"
+      ],
+      "description": "Class GiftCertificateMgr"
+  },
+  "dw/order/GiftCertificateStatusCodes": {
+      "prefix": "c-gc-st-codes",
+      "body": [
+          "const GiftCertificateStatusCodes = require('dw/order/GiftCertificateStatusCodes');"
+      ],
+      "description": "Class GiftCertificateStatusCodes"
+  },
+  "dw/order/Invoice": {
+      "prefix": "c-invo",
+      "body": [
+          "const Invoice = require('dw/order/Invoice');"
+      ],
+      "description": "Class Invoice"
+  },
+  "dw/order/InvoiceItem": {
+      "prefix": "c-invo-item",
+      "body": [
+          "const InvoiceItem = require('dw/order/InvoiceItem');"
+      ],
+      "description": "Class InvoiceItem"
+  },
+  "dw/order/LineItem": {
+      "prefix": "c-li",
+      "body": [
+          "const LineItem = require('dw/order/LineItem');"
+      ],
+      "description": "Class LineItem"
+  },
+  "dw/order/LineItemCtnr": {
+      "prefix": "c-lic",
+      "body": [
+          "const LineItemCtnr = require('dw/order/LineItemCtnr');"
+      ],
+      "description": "Class LineItemCtnr"
+  },
+  "dw/order/Order": {
+      "prefix": "c-od",
+      "body": [
+          "const Order = require('dw/order/Order');"
+      ],
+      "description": "Class Order"
+  },
+  "dw/order/OrderAddress": {
+      "prefix": "c-od-ad",
+      "body": [
+          "const OrderAddress = require('dw/order/OrderAddress');"
+      ],
+      "description": "Class OrderAddress"
+  },
+  "dw/order/OrderItem": {
+      "prefix": "c-od-i",
+      "body": [
+          "const OrderItem = require('dw/order/OrderItem');"
+      ],
+      "description": "Class OrderItem"
+  },
+  "dw/order/OrderMgr": {
+      "prefix": "c-od-mgr",
+      "body": [
+          "const OrderMgr = require('dw/order/OrderMgr');"
+      ],
+      "description": "Class OrderMgr"
+  },
+  "dw/order/OrderPaymentInstrument": {
+      "prefix": "c-od-pay-i",
+      "body": [
+          "const OrderPaymentInstrument = require('dw/order/OrderPaymentInstrument');"
+      ],
+      "description": "Class OrderPaymentInstrument"
+  },
+  "dw/order/OrderProcessStatusCodes": {
+      "prefix": "c-od-prc-st-cd",
+      "body": [
+          "const OrderProcessStatusCodes = require('dw/order/OrderProcessStatusCodes');"
+      ],
+      "description": "Class OrderProcessStatusCodes"
+  },
+  "dw/order/PaymentCard": {
+      "prefix": "c-pay-crd",
+      "body": [
+          "const PaymentCard = require('dw/order/PaymentCard');"
+      ],
+      "description": "Class PaymentCard"
+  },
+  "dw/order/PaymentInstrument": {
+      "prefix": "c-pay-i",
+      "body": [
+          "const PaymentInstrument = require('dw/order/PaymentInstrument');"
+      ],
+      "description": "Class PaymentInstrument"
+  },
+  "dw/order/PaymentMethod": {
+      "prefix": "c-pay-mthd",
+      "body": [
+          "const PaymentMethod = require('dw/order/PaymentMethod');"
+      ],
+      "description": "Class PaymentMethod"
+  },
+  "dw/order/PaymentMgr": {
+      "prefix": "c-pay-mgr",
+      "body": [
+          "const PaymentMgr = require('dw/order/PaymentMgr');"
+      ],
+      "description": "Class PaymentMgr"
+  },
+  "dw/order/PaymentProcessor": {
+      "prefix": "c-pay-prc",
+      "body": [
+          "const PaymentProcessor = require('dw/order/PaymentProcessor');"
+      ],
+      "description": "Class PaymentProcessor"
+  },
+  "dw/order/PaymentStatusCodes": {
+      "prefix": "c-pay-st-cd",
+      "body": [
+          "const PaymentStatusCodes = require('dw/order/PaymentStatusCodes');"
+      ],
+      "description": "Class PaymentStatusCodes"
+  },
+  "dw/order/PaymentTransaction": {
+      "prefix": "c-pay-trns",
+      "body": [
+          "const PaymentTransaction = require('dw/order/PaymentTransaction');"
+      ],
+      "description": "Class PaymentTransaction"
+  },
+  "dw/order/PriceAdjustment": {
+      "prefix": "c-pri-adj",
+      "body": [
+          "const PriceAdjustment = require('dw/order/PriceAdjustment');"
+      ],
+      "description": "Class PriceAdjustment"
+  },
+  "dw/order/PriceAdjustmentLimitTypes": {
+      "prefix": "c-pri-adj-lmt-ty",
+      "body": [
+          "const PriceAdjustmentLimitTypes = require('dw/order/PriceAdjustmentLimitTypes');"
+      ],
+      "description": "Class PriceAdjustmentLimitTypes"
+  },
+  "dw/order/ProductLineItem": {
+      "prefix": "c-pli",
+      "body": [
+          "const ProductLineItem = require('dw/order/ProductLineItem');"
+      ],
+      "description": "Class ProductLineItem"
+  },
+  "dw/order/ProductShippingCost": {
+      "prefix": "c-prd-sp-cost",
+      "body": [
+          "const ProductShippingCost = require('dw/order/ProductShippingCost');"
+      ],
+      "description": "Class ProductShippingCost"
+  },
+  "dw/order/ProductShippingLineItem": {
+      "prefix": "c-prd-sli",
+      "body": [
+          "const ProductShippingLineItem = require('dw/order/ProductShippingLineItem');"
+      ],
+      "description": "Class ProductShippingLineItem"
+  },
+  "dw/order/ProductShippingModel": {
+      "prefix": "c-prd-sp-mdl",
+      "body": [
+          "const ProductShippingModel = require('dw/order/ProductShippingModel');"
+      ],
+      "description": "Class ProductShippingModel"
+  },
+  "dw/order/Return": {
+      "prefix": "c-rt",
+      "body": [
+          "const Return = require('dw/order/Return');"
+      ],
+      "description": "Class Return"
+  },
+  "dw/order/ReturnCase": {
+      "prefix": "c-rt-case",
+      "body": [
+          "const ReturnCase = require('dw/order/ReturnCase');"
+      ],
+      "description": "Class ReturnCase"
+  },
+  "dw/order/ReturnCaseItem": {
+      "prefix": "c-rt-c-i",
+      "body": [
+          "const ReturnCaseItem = require('dw/order/ReturnCaseItem');"
+      ],
+      "description": "Class ReturnCaseItem"
+  },
+  "dw/order/ReturnItem": {
+      "prefix": "c-rt-i",
+      "body": [
+          "const ReturnItem = require('dw/order/ReturnItem');"
+      ],
+      "description": "Class ReturnItem"
+  },
+  "dw/order/Shipment": {
+      "prefix": "c-spmt",
+      "body": [
+          "const Shipment = require('dw/order/Shipment');"
+      ],
+      "description": "Class Shipment"
+  },
+  "dw/order/ShipmentShippingCost": {
+      "prefix": "c-sp-cost",
+      "body": [
+          "const ShipmentShippingCost = require('dw/order/ShipmentShippingCost');"
+      ],
+      "description": "Class ShipmentShippingCost"
+  },
+  "dw/order/ShipmentShippingModel": {
+      "prefix": "c-sp-mdl",
+      "body": [
+          "const ShipmentShippingModel = require('dw/order/ShipmentShippingModel');"
+      ],
+      "description": "Class ShipmentShippingModel"
+  },
+  "dw/order/ShippingLineItem": {
+      "prefix": "c-sp-li",
+      "body": [
+          "const ShippingLineItem = require('dw/order/ShippingLineItem');"
+      ],
+      "description": "Class ShippingLineItem"
+  },
+  "dw/order/ShippingLocation": {
+      "prefix": "c-sp-loc",
+      "body": [
+          "const ShippingLocation = require('dw/order/ShippingLocation');"
+      ],
+      "description": "Class ShippingLocation"
+  },
+  "dw/order/ShippingMethod": {
+      "prefix": "c-sp-m",
+      "body": [
+          "const ShippingMethod = require('dw/order/ShippingMethod');"
+      ],
+      "description": "Class ShippingMethod"
+  },
+  "dw/order/ShippingMgr": {
+      "prefix": "c-sp-mgr",
+      "body": [
+          "const ShippingMgr = require('dw/order/ShippingMgr');"
+      ],
+      "description": "Class ShippingMgr"
+  },
+  "dw/order/ShippingOrder": {
+      "prefix": "c-sp-od",
+      "body": [
+          "const ShippingOrder = require('dw/order/ShippingOrder');"
+      ],
+      "description": "Class ShippingOrder"
+  },
+  "dw/order/ShippingOrderItem": {
+      "prefix": "c-sp-od-i",
+      "body": [
+          "const ShippingOrderItem = require('dw/order/ShippingOrderItem');"
+      ],
+      "description": "Class ShippingOrderItem"
+  },
+  "dw/order/SumItem": {
+      "prefix": "c-sum",
+      "body": [
+          "const SumItem = require('dw/order/SumItem');"
+      ],
+      "description": "Class SumItem"
+  },
+  "dw/order/TaxGroup": {
+      "prefix": "c-tx-grp",
+      "body": [
+          "const TaxGroup = require('dw/order/TaxGroup');"
+      ],
+      "description": "Class TaxGroup"
+  },
+  "dw/order/TaxItem": {
+      "prefix": "c-tx-i",
+      "body": [
+          "const TaxItem = require('dw/order/TaxItem');"
+      ],
+      "description": "Class TaxItem"
+  },
+  "dw/order/TaxMgr": {
+      "prefix": "c-tx-mgr",
+      "body": [
+          "const TaxMgr = require('dw/order/TaxMgr');"
+      ],
+      "description": "Class TaxMgr"
+  },
+  "dw/order/TrackingInfo": {
+      "prefix": "c-trak-inf",
+      "body": [
+          "const TrackingInfo = require('dw/order/TrackingInfo');"
+      ],
+      "description": "Class TrackingInfo"
+  },
+  "dw/order/TrackingRef": {
+      "prefix": "c-trak-ref",
+      "body": [
+          "const TrackingRef = require('dw/order/TrackingRef');"
+      ],
+      "description": "Class TrackingRef"
+  },
+  "dw/order/hooks/CalculateHooks": {
+      "prefix": "c-cal-hok",
+      "body": [
+          "const CalculateHooks = require('dw/order/hooks/CalculateHooks');"
+      ],
+      "description": "Class CalculateHooks"
+  },
+  "dw/order/hooks/OrderHooks": {
+      "prefix": "c-od-hok",
+      "body": [
+          "const OrderHooks = require('dw/order/hooks/OrderHooks');"
+      ],
+      "description": "Class OrderHooks"
+  },
+  "dw/order/hooks/PaymentHooks": {
+      "prefix": "c-pay-hoks",
+      "body": [
+          "const PaymentHooks = require('dw/order/hooks/PaymentHooks');"
+      ],
+      "description": "Class PaymentHooks"
+  },
+  "dw/order/hooks/ReturnHooks": {
+      "prefix": "c-rt-hok",
+      "body": [
+          "const ReturnHooks = require('dw/order/hooks/ReturnHooks');"
+      ],
+      "description": "Class ReturnHooks"
+  },
+  "dw/order/hooks/ShippingOrderHooks": {
+      "prefix": "c-sp-od-hok",
+      "body": [
+          "const ShippingOrderHooks = require('dw/order/hooks/ShippingOrderHooks');"
+      ],
+      "description": "Class ShippingOrderHooks"
+  },
+  "dw/rpc/SOAPUtil": {
+      "prefix": "c-soap-utl",
+      "body": [
+          "const SOAPUtil = require('dw/rpc/SOAPUtil');"
+      ],
+      "description": "Class SOAPUtil"
+  },
+  "dw/rpc/Stub": {
+      "prefix": "c-stub",
+      "body": [
+          "const Stub = require('dw/rpc/Stub');"
+      ],
+      "description": "Class Stub"
+  },
+  "dw/rpc/WebReference": {
+      "prefix": "c-wref",
+      "body": [
+          "const WebReference = require('dw/rpc/WebReference');"
+      ],
+      "description": "Class WebReference"
+  },
+  "dw/sitemap/SitemapFile": {
+      "prefix": "c-sit-mp-file",
+      "body": [
+          "const SitemapFile = require('dw/sitemap/SitemapFile');"
+      ],
+      "description": "Class SitemapFile"
+  },
+  "dw/sitemap/SitemapMgr": {
+      "prefix": "c-sit-mp-mgr",
+      "body": [
+          "const SitemapMgr = require('dw/sitemap/SitemapMgr');"
+      ],
+      "description": "Class SitemapMgr"
+  },
+  "dw/suggest/BrandSuggestions": {
+      "prefix": "c-brnd-sug",
+      "body": [
+          "const BrandSuggestions = require('dw/suggest/BrandSuggestions');"
+      ],
+      "description": "Class BrandSuggestions"
+  },
+  "dw/suggest/CategorySuggestions": {
+      "prefix": "c-cate-sug",
+      "body": [
+          "const CategorySuggestions = require('dw/suggest/CategorySuggestions');"
+      ],
+      "description": "Class CategorySuggestions"
+  },
+  "dw/suggest/ContentSuggestions": {
+      "prefix": "c-cont-sug",
+      "body": [
+          "const ContentSuggestions = require('dw/suggest/ContentSuggestions');"
+      ],
+      "description": "Class ContentSuggestions"
+  },
+  "dw/suggest/CustomSuggestions": {
+      "prefix": "c-cst-sug",
+      "body": [
+          "const CustomSuggestions = require('dw/suggest/CustomSuggestions');"
+      ],
+      "description": "Class CustomSuggestions"
+  },
+  "dw/suggest/ProductSuggestions": {
+      "prefix": "c-prd-sug",
+      "body": [
+          "const ProductSuggestions = require('dw/suggest/ProductSuggestions');"
+      ],
+      "description": "Class ProductSuggestions"
+  },
+  "dw/suggest/SearchPhraseSuggestions": {
+      "prefix": "c-se-phr-sug",
+      "body": [
+          "const SearchPhraseSuggestions = require('dw/suggest/SearchPhraseSuggestions');"
+      ],
+      "description": "Class SearchPhraseSuggestions"
+  },
+  "dw/suggest/SuggestedCategory": {
+      "prefix": "c-sug-cate",
+      "body": [
+          "const SuggestedCategory = require('dw/suggest/SuggestedCategory');"
+      ],
+      "description": "Class SuggestedCategory"
+  },
+  "dw/suggest/SuggestedContent": {
+      "prefix": "c-sug-cont",
+      "body": [
+          "const SuggestedContent = require('dw/suggest/SuggestedContent');"
+      ],
+      "description": "Class SuggestedContent"
+  },
+  "dw/suggest/SuggestedPhrase": {
+      "prefix": "c-sug-phr",
+      "body": [
+          "const SuggestedPhrase = require('dw/suggest/SuggestedPhrase');"
+      ],
+      "description": "Class SuggestedPhrase"
+  },
+  "dw/suggest/SuggestedProduct": {
+      "prefix": "c-sug-prd",
+      "body": [
+          "const SuggestedProduct = require('dw/suggest/SuggestedProduct');"
+      ],
+      "description": "Class SuggestedProduct"
+  },
+  "dw/suggest/SuggestedTerm": {
+      "prefix": "c-sug-trm",
+      "body": [
+          "const SuggestedTerm = require('dw/suggest/SuggestedTerm');"
+      ],
+      "description": "Class SuggestedTerm"
+  },
+  "dw/suggest/SuggestedTerms": {
+      "prefix": "c-sug-trms",
+      "body": [
+          "const SuggestedTerms = require('dw/suggest/SuggestedTerms');"
+      ],
+      "description": "Class SuggestedTerms"
+  },
+  "dw/suggest/Suggestions": {
+      "prefix": "c-sugs",
+      "body": [
+          "const Suggestions = require('dw/suggest/Suggestions');"
+      ],
+      "description": "Class Suggestions"
+  },
+  "dw/suggest/SuggestModel": {
+      "prefix": "c-sug-mdl",
+      "body": [
+          "const SuggestModel = require('dw/suggest/SuggestModel');"
+      ],
+      "description": "Class SuggestModel"
+  },
+  "dw/svc/FTPService": {
+      "prefix": "c-ftp-srv",
+      "body": [
+          "const FTPService = require('dw/svc/FTPService');"
+      ],
+      "description": "Class FTPService"
+  },
+  "dw/svc/FTPServiceDefinition": {
+      "prefix": "c-ftp-srv-def",
+      "body": [
+          "const FTPServiceDefinition = require('dw/svc/FTPServiceDefinition');"
+      ],
+      "description": "Class FTPServiceDefinition"
+  },
+  "dw/svc/HTTPFormService": {
+      "prefix": "c-htt-frm-srv",
+      "body": [
+          "const HTTPFormService = require('dw/svc/HTTPFormService');"
+      ],
+      "description": "Class HTTPFormService"
+  },
+  "dw/svc/HTTPFormServiceDefinition": {
+      "prefix": "c-htt-frm-srv-def",
+      "body": [
+          "const HTTPFormServiceDefinition = require('dw/svc/HTTPFormServiceDefinition');"
+      ],
+      "description": "Class HTTPFormServiceDefinition"
+  },
+  "dw/svc/HTTPService": {
+      "prefix": "c-htt-srv",
+      "body": [
+          "const HTTPService = require('dw/svc/HTTPService');"
+      ],
+      "description": "Class HTTPService"
+  },
+  "dw/svc/HTTPServiceDefinition": {
+      "prefix": "c-htt-srv-def",
+      "body": [
+          "const HTTPServiceDefinition = require('dw/svc/HTTPServiceDefinition');"
+      ],
+      "description": "Class HTTPServiceDefinition"
+  },
+  "dw/svc/LocalServiceRegistry": {
+      "prefix": "c-lsr",
+      "body": [
+          "const LocalServiceRegistry = require('dw/svc/LocalServiceRegistry');"
+      ],
+      "description": "Class LocalServiceRegistry"
+  },
+  "dw/svc/Result": {
+      "prefix": "c-rs",
+      "body": [
+          "const Result = require('dw/svc/Result');"
+      ],
+      "description": "Class Result"
+  },
+  "dw/svc/Service": {
+      "prefix": "c-srv",
+      "body": [
+          "const Service = require('dw/svc/Service');"
+      ],
+      "description": "Class Service"
+  },
+  "dw/svc/ServiceCallback": {
+      "prefix": "c-srv-clbc",
+      "body": [
+          "const ServiceCallback = require('dw/svc/ServiceCallback');"
+      ],
+      "description": "Class ServiceCallback"
+  },
+  "dw/svc/ServiceConfig": {
+      "prefix": "c-srv-conf",
+      "body": [
+          "const ServiceConfig = require('dw/svc/ServiceConfig');"
+      ],
+      "description": "Class ServiceConfig"
+  },
+  "dw/svc/ServiceCredential": {
+      "prefix": "c-srv-cred",
+      "body": [
+          "const ServiceCredential = require('dw/svc/ServiceCredential');"
+      ],
+      "description": "Class ServiceCredential"
+  },
+  "dw/svc/ServiceDefinition": {
+      "prefix": "c-srv-def",
+      "body": [
+          "const ServiceDefinition = require('dw/svc/ServiceDefinition');"
+      ],
+      "description": "Class ServiceDefinition"
+  },
+  "dw/svc/ServiceProfile": {
+      "prefix": "c-srv-prf",
+      "body": [
+          "const ServiceProfile = require('dw/svc/ServiceProfile');"
+      ],
+      "description": "Class ServiceProfile"
+  },
+  "dw/svc/ServiceRegistry": {
+      "prefix": "c-srv-reg",
+      "body": [
+          "const ServiceRegistry = require('dw/svc/ServiceRegistry');"
+      ],
+      "description": "Class ServiceRegistry"
+  },
+  "dw/svc/SOAPService": {
+      "prefix": "c-soap-srv",
+      "body": [
+          "const SOAPService = require('dw/svc/SOAPService');"
+      ],
+      "description": "Class SOAPService"
+  },
+  "dw/svc/SOAPServiceDefinition": {
+      "prefix": "c-soap-srv-def",
+      "body": [
+          "const SOAPServiceDefinition = require('dw/svc/SOAPServiceDefinition');"
+      ],
+      "description": "Class SOAPServiceDefinition"
+  },
+  "dw/system/AgentUserStatusCodes": {
+      "prefix": "c-syagnt-st-cd",
+      "body": [
+          "const AgentUserStatusCodes = require('dw/system/AgentUserStatusCodes');"
+      ],
+      "description": "Class AgentUserStatusCodes"
+  },
+  "dw/system/Cache": {
+      "prefix": "c-cac",
+      "body": [
+          "const Cache = require('dw/system/Cache');"
+      ],
+      "description": "Class Cache"
+  },
+  "dw/system/CacheMgr": {
+      "prefix": "c-cac-mgr",
+      "body": [
+          "const CacheMgr = require('dw/system/CacheMgr');"
+      ],
+      "description": "Class CacheMgr"
+  },
+  "dw/system/HookMgr": {
+      "prefix": "c-hok-mgr",
+      "body": [
+          "const HookMgr = require('dw/system/HookMgr');"
+      ],
+      "description": "Class HookMgr"
+  },
+  "dw/system/InternalObject": {
+      "prefix": "c-inter-obj",
+      "body": [
+          "const InternalObject = require('dw/system/InternalObject');"
+      ],
+      "description": "Class InternalObject"
+  },
+  "dw/system/JobProcessMonitor": {
+      "prefix": "c-job-prc-mntr",
+      "body": [
+          "const JobProcessMonitor = require('dw/system/JobProcessMonitor');"
+      ],
+      "description": "Class JobProcessMonitor"
+  },
+  "dw/system/Log": {
+      "prefix": "c-log",
+      "body": [
+          "const Log = require('dw/system/Log');"
+      ],
+      "description": "Class Log"
+  },
+  "dw/system/Logger": {
+      "prefix": "c-logr",
+      "body": [
+          "const Logger = require('dw/system/Logger');"
+      ],
+      "description": "Class Logger"
+  },
+  "dw/system/LogNDC": {
+      "prefix": "c-log-ndc",
+      "body": [
+          "const LogNDC = require('dw/system/LogNDC');"
+      ],
+      "description": "Class LogNDC"
+  },
+  "dw/system/OrganizationPreferences": {
+      "prefix": "c-org-pref",
+      "body": [
+          "const OrganizationPreferences = require('dw/system/OrganizationPreferences');"
+      ],
+      "description": "Class OrganizationPreferences"
+  },
+  "dw/system/Pipeline": {
+      "prefix": "c-pip",
+      "body": [
+          "const Pipeline = require('dw/system/Pipeline');"
+      ],
+      "description": "Class Pipeline"
+  },
+  "dw/system/PipelineDictionary": {
+      "prefix": "c-pdict",
+      "body": [
+          "const PipelineDictionary = require('dw/system/PipelineDictionary');"
+      ],
+      "description": "Class PipelineDictionary"
+  },
+  "dw/system/Request": {
+      "prefix": "c-req",
+      "body": [
+          "const Request = require('dw/system/Request');"
+      ],
+      "description": "Class Request"
+  },
+  "dw/system/RequestHooks": {
+      "prefix": "c-req-hok",
+      "body": [
+          "const RequestHooks = require('dw/system/RequestHooks');"
+      ],
+      "description": "Class RequestHooks"
+  },
+  "dw/system/Response": {
+      "prefix": "c-res",
+      "body": [
+          "const Response = require('dw/system/Response');"
+      ],
+      "description": "Class Response"
+  },
+  "dw/system/Session": {
+      "prefix": "c-ses",
+      "body": [
+          "const Session = require('dw/system/Session');"
+      ],
+      "description": "Class Session"
+  },
+  "dw/system/Site": {
+      "prefix": "c-sit",
+      "body": [
+          "const Site = require('dw/system/Site');"
+      ],
+      "description": "Class Site"
+  },
+  "dw/system/SitePreferences": {
+      "prefix": "c-sit-pref",
+      "body": [
+          "const SitePreferences = require('dw/system/SitePreferences');"
+      ],
+      "description": "Class SitePreferences"
+  },
+  "dw/system/Status": {
+      "prefix": "c-st",
+      "body": [
+          "const Status = require('dw/system/Status');"
+      ],
+      "description": "Class Status"
+  },
+  "dw/system/StatusItem": {
+      "prefix": "c-st-item",
+      "body": [
+          "const StatusItem = require('dw/system/StatusItem');"
+      ],
+      "description": "Class StatusItem"
+  },
+  "dw/system/System": {
+      "prefix": "c-sys",
+      "body": [
+          "const System = require('dw/system/System');"
+      ],
+      "description": "Class System"
+  },
+  "dw/system/Transaction": {
+      "prefix": "c-trns",
+      "body": [
+          "const Transaction = require('dw/system/Transaction');"
+      ],
+      "description": "Class Transaction"
+  },
+  "dw/template/ISML": {
+      "prefix": "c-isml",
+      "body": [
+          "const ISML = require('dw/template/ISML');"
+      ],
+      "description": "Class ISML"
+  },
+  "dw/template/Velocity": {
+      "prefix": "c-velo",
+      "body": [
+          "const Velocity = require('dw/template/Velocity');"
+      ],
+      "description": "Class Velocity"
+  },
+  "dw/util/ArrayList": {
+      "prefix": "c-a-lst",
+      "body": [
+          "const ArrayList = require('dw/util/ArrayList');"
+      ],
+      "description": "Class ArrayList"
+  },
+  "dw/util/Assert": {
+      "prefix": "c-assert",
+      "body": [
+          "const Assert = require('dw/util/Assert');"
+      ],
+      "description": "Class Assert"
+  },
+  "dw/util/BigInteger": {
+      "prefix": "c-bint",
+      "body": [
+          "const BigInteger = require('dw/util/BigInteger');"
+      ],
+      "description": "Class BigInteger"
+  },
+  "dw/util/Bytes": {
+      "prefix": "c-byt",
+      "body": [
+          "const Bytes = require('dw/util/Bytes');"
+      ],
+      "description": "Class Bytes"
+  },
+  "dw/util/Calendar": {
+      "prefix": "c-cal",
+      "body": [
+          "const Calendar = require('dw/util/Calendar');"
+      ],
+      "description": "Class Calendar"
+  },
+  "dw/util/Collection": {
+      "prefix": "c-col",
+      "body": [
+          "const Collection = require('dw/util/Collection');"
+      ],
+      "description": "Class Collection"
+  },
+  "dw/util/Currency": {
+      "prefix": "c-cur",
+      "body": [
+          "const Currency = require('dw/util/Currency');"
+      ],
+      "description": "Class Currency"
+  },
+  "dw/util/DateUtils": {
+      "prefix": "c-dt-utl",
+      "body": [
+          "const DateUtils = require('dw/util/DateUtils');"
+      ],
+      "description": "Class DateUtils"
+  },
+  "dw/util/Decimal": {
+      "prefix": "c-dec",
+      "body": [
+          "const Decimal = require('dw/util/Decimal');"
+      ],
+      "description": "Class Decimal"
+  },
+  "dw/util/FilteringCollection": {
+      "prefix": "c-flt-col",
+      "body": [
+          "const FilteringCollection = require('dw/util/FilteringCollection');"
+      ],
+      "description": "Class FilteringCollection"
+  },
+  "dw/util/Geolocation": {
+      "prefix": "c-geolocaton",
+      "body": [
+          "const Geolocation = require('dw/util/Geolocation');"
+      ],
+      "description": "Class Geolocation"
+  },
+  "dw/util/HashMap": {
+      "prefix": "c-hash-mp",
+      "body": [
+          "const HashMap = require('dw/util/HashMap');"
+      ],
+      "description": "Class HashMap"
+  },
+  "dw/util/HashSet": {
+      "prefix": "c-hash-set",
+      "body": [
+          "const HashSet = require('dw/util/HashSet');"
+      ],
+      "description": "Class HashSet"
+  },
+  "dw/util/Iterator": {
+      "prefix": "c-it",
+      "body": [
+          "const Iterator = require('dw/util/Iterator');"
+      ],
+      "description": "Class Iterator"
+  },
+  "dw/util/LinkedHashMap": {
+      "prefix": "c-l-hash-mp",
+      "body": [
+          "const LinkedHashMap = require('dw/util/LinkedHashMap');"
+      ],
+      "description": "Class LinkedHashMap"
+  },
+  "dw/util/LinkedHashSet": {
+      "prefix": "c-l-hash-set",
+      "body": [
+          "const LinkedHashSet = require('dw/util/LinkedHashSet');"
+      ],
+      "description": "Class LinkedHashSet"
+  },
+  "dw/util/List": {
+      "prefix": "c-lst",
+      "body": [
+          "const List = require('dw/util/List');"
+      ],
+      "description": "Class List"
+  },
+  "dw/util/Locale": {
+      "prefix": "c-lol",
+      "body": [
+          "const Locale = require('dw/util/Locale');"
+      ],
+      "description": "Class Locale"
+  },
+  "dw/util/Map": {
+      "prefix": "c-mp",
+      "body": [
+          "const Map = require('dw/util/Map');"
+      ],
+      "description": "Class Map"
+  },
+  "dw/util/MapEntry": {
+      "prefix": "c-mp-ent",
+      "body": [
+          "const MapEntry = require('dw/util/MapEntry');"
+      ],
+      "description": "Class MapEntry"
+  },
+  "dw/util/MappingKey": {
+      "prefix": "c-mp-key",
+      "body": [
+          "const MappingKey = require('dw/util/MappingKey');"
+      ],
+      "description": "Class MappingKey"
+  },
+  "dw/util/MappingMgr": {
+      "prefix": "c-mp-mgr",
+      "body": [
+          "const MappingMgr = require('dw/util/MappingMgr');"
+      ],
+      "description": "Class MappingMgr"
+  },
+  "dw/util/PropertyComparator": {
+      "prefix": "c-prop-cmp",
+      "body": [
+          "const PropertyComparator = require('dw/util/PropertyComparator');"
+      ],
+      "description": "Class PropertyComparator"
+  },
+  "dw/util/SecureEncoder": {
+      "prefix": "c-sec-enc",
+      "body": [
+          "const SecureEncoder = require('dw/util/SecureEncoder');"
+      ],
+      "description": "Class SecureEncoder"
+  },
+  "dw/util/SecureFilter": {
+      "prefix": "c-sec-flt",
+      "body": [
+          "const SecureFilter = require('dw/util/SecureFilter');"
+      ],
+      "description": "Class SecureFilter"
+  },
+  "dw/util/SeekableIterator": {
+      "prefix": "c-sek-it",
+      "body": [
+          "const SeekableIterator = require('dw/util/SeekableIterator');"
+      ],
+      "description": "Class SeekableIterator"
+  },
+  "dw/util/Set": {
+      "prefix": "c-set",
+      "body": [
+          "const Set = require('dw/util/Set');"
+      ],
+      "description": "Class Set"
+  },
+  "dw/util/SortedMap": {
+      "prefix": "c-srt-mp",
+      "body": [
+          "const SortedMap = require('dw/util/SortedMap');"
+      ],
+      "description": "Class SortedMap"
+  },
+  "dw/util/SortedSet": {
+      "prefix": "c-srt-set",
+      "body": [
+          "const SortedSet = require('dw/util/SortedSet');"
+      ],
+      "description": "Class SortedSet"
+  },
+  "dw/util/StringUtils": {
+      "prefix": "c-str-utl",
+      "body": [
+          "const StringUtils = require('dw/util/StringUtils');"
+      ],
+      "description": "Class StringUtils"
+  },
+  "dw/util/Template": {
+      "prefix": "c-tmp",
+      "body": [
+          "const Template = require('dw/util/Template');"
+      ],
+      "description": "Class Template"
+  },
+  "dw/util/UUIDUtils": {
+      "prefix": "c-uuid",
+      "body": [
+          "const UUIDUtils = require('dw/util/UUIDUtils');"
+      ],
+      "description": "Class UUIDUtils"
+  },
+  "dw/value/EnumValue": {
+      "prefix": "c-en-vl",
+      "body": [
+          "const EnumValue = require('dw/value/EnumValue');"
+      ],
+      "description": "Class EnumValue"
+  },
+  "dw/value/MimeEncodedText": {
+      "prefix": "c-mime",
+      "body": [
+          "const MimeEncodedText = require('dw/value/MimeEncodedText');"
+      ],
+      "description": "Class MimeEncodedText"
+  },
+  "dw/value/Money": {
+      "prefix": "c-mny",
+      "body": [
+          "const Money = require('dw/value/Money');"
+      ],
+      "description": "Class Money"
+  },
+  "dw/valueQuantity": {
+      "prefix": "c-qty",
+      "body": [
+          "const valueQuantity = require('dw/valueQuantity');"
+      ],
+      "description": "Class valueQuantity"
+  },
+  "dw/web/ClickStream": {
+      "prefix": "c-clck-str",
+      "body": [
+          "const ClickStream = require('dw/web/ClickStream');"
+      ],
+      "description": "Class ClickStream"
+  },
+  "dw/web/ClickStreamEntry": {
+      "prefix": "c-clck-str-ent",
+      "body": [
+          "const ClickStreamEntry = require('dw/web/ClickStreamEntry');"
+      ],
+      "description": "Class ClickStreamEntry"
+  },
+  "dw/web/Cookie": {
+      "prefix": "c-cok",
+      "body": [
+          "const Cookie = require('dw/web/Cookie');"
+      ],
+      "description": "Class Cookie"
+  },
+  "dw/web/Cookies": {
+      "prefix": "c-coks",
+      "body": [
+          "const Cookies = require('dw/web/Cookies');"
+      ],
+      "description": "Class Cookies"
+  },
+  "dw/web/CSRFProtection": {
+      "prefix": "c-csrf",
+      "body": [
+          "const CSRFProtection = require('dw/web/CSRFProtection');"
+      ],
+      "description": "Class CSRFProtection"
+  },
+  "dw/web/Form": {
+      "prefix": "c-frm",
+      "body": [
+          "const Form = require('dw/web/Form');"
+      ],
+      "description": "Class Form"
+  },
+  "dw/web/FormAction": {
+      "prefix": "c-frma",
+      "body": [
+          "const FormAction = require('dw/web/FormAction');"
+      ],
+      "description": "Class FormAction"
+  },
+  "dw/web/FormElement": {
+      "prefix": "c-frme",
+      "body": [
+          "const FormElement = require('dw/web/FormElement');"
+      ],
+      "description": "Class FormElement"
+  },
+  "dw/web/FormElementValidationResult": {
+      "prefix": "c-fmre-vld-rs",
+      "body": [
+          "const FormElementValidationResult = require('dw/web/FormElementValidationResult');"
+      ],
+      "description": "Class FormElementValidationResult"
+  },
+  "dw/web/FormField": {
+      "prefix": "c-frmf",
+      "body": [
+          "const FormField = require('dw/web/FormField');"
+      ],
+      "description": "Class FormField"
+  },
+  "dw/web/FormFieldOption": {
+      "prefix": "c-frmf-opt",
+      "body": [
+          "const FormFieldOption = require('dw/web/FormFieldOption');"
+      ],
+      "description": "Class FormFieldOption"
+  },
+  "dw/web/FormFieldOptions": {
+      "prefix": "c-frmf-opts",
+      "body": [
+          "const FormFieldOptions = require('dw/web/FormFieldOptions');"
+      ],
+      "description": "Class FormFieldOptions"
+  },
+  "dw/web/FormGroup": {
+      "prefix": "c-fmrg",
+      "body": [
+          "const FormGroup = require('dw/web/FormGroup');"
+      ],
+      "description": "Class FormGroup"
+  },
+  "dw/web/FormList": {
+      "prefix": "c-frml",
+      "body": [
+          "const FormList = require('dw/web/FormList');"
+      ],
+      "description": "Class FormList"
+  },
+  "dw/web/FormListItem": {
+      "prefix": "c-frml-item",
+      "body": [
+          "const FormListItem = require('dw/web/FormListItem');"
+      ],
+      "description": "Class FormListItem"
+  },
+  "dw/web/Forms": {
+      "prefix": "c-fmrs",
+      "body": [
+          "const Forms = require('dw/web/Forms');"
+      ],
+      "description": "Class Forms"
+  },
+  "dw/web/HttpParameter": {
+      "prefix": "c-hp",
+      "body": [
+          "const HttpParameter = require('dw/web/HttpParameter');"
+      ],
+      "description": "Class HttpParameter"
+  },
+  "dw/web/HttpParameterMap": {
+      "prefix": "c-hpm",
+      "body": [
+          "const HttpParameterMap = require('dw/web/HttpParameterMap');"
+      ],
+      "description": "Class HttpParameterMap"
+  },
+  "dw/web/LoopIterator": {
+      "prefix": "c-lp-it",
+      "body": [
+          "const LoopIterator = require('dw/web/LoopIterator');"
+      ],
+      "description": "Class LoopIterator"
+  },
+  "dw/web/PageMetaData": {
+      "prefix": "c-pmd",
+      "body": [
+          "const PageMetaData = require('dw/web/PageMetaData');"
+      ],
+      "description": "Class PageMetaData"
+  },
+  "dw/web/PageMetaTag": {
+      "prefix": "c-pmt",
+      "body": [
+          "const PageMetaTag = require('dw/web/PageMetaTag');"
+      ],
+      "description": "Class PageMetaTag"
+  },
+  "dw/web/PagingModel": {
+      "prefix": "c-pm",
+      "body": [
+          "const PagingModel = require('dw/web/PagingModel');"
+      ],
+      "description": "Class PagingModel"
+  },
+  "dw/web/Resource": {
+      "prefix": "c-rsc",
+      "body": [
+          "const Resource = require('dw/web/Resource');"
+      ],
+      "description": "Class Resource"
+  },
+  "dw/web/URL": {
+      "prefix": "c-url",
+      "body": [
+          "const URL = require('dw/web/URL');"
+      ],
+      "description": "Class URL"
+  },
+  "dw/web/URLAction": {
+      "prefix": "c-url-actn",
+      "body": [
+          "const URLAction = require('dw/web/URLAction');"
+      ],
+      "description": "Class URLAction"
+  },
+  "dw/web/URLParameter": {
+      "prefix": "c-url-para",
+      "body": [
+          "const URLParameter = require('dw/web/URLParameter');"
+      ],
+      "description": "Class URLParameter"
+  },
+  "dw/web/URLRedirect": {
+      "prefix": "c-url-red",
+      "body": [
+          "const URLRedirect = require('dw/web/URLRedirect');"
+      ],
+      "description": "Class URLRedirect"
+  },
+  "dw/web/URLRedirectMgr": {
+      "prefix": "c-url-red-mgr",
+      "body": [
+          "const URLRedirectMgr = require('dw/web/URLRedirectMgr');"
+      ],
+      "description": "Class URLRedirectMgr"
+  },
+  "dw/web/URLUtils": {
+      "prefix": "c-uutl",
+      "body": [
+          "const URLUtils = require('dw/web/URLUtils');"
+      ],
+      "description": "Class URLUtils"
+  },
+  "dw/ws/Port": {
+      "prefix": "c-prt",
+      "body": [
+          "const Port = require('dw/ws/Port');"
+      ],
+      "description": "Class Port"
+  },
+  "dw/ws/WebReference2": {
+      "prefix": "c-wref2",
+      "body": [
+          "const WebReference2 = require('dw/ws/WebReference2');"
+      ],
+      "description": "Class WebReference2"
+  },
+  "dw/ws/WSUtil": {
+      "prefix": "c-wsutl",
+      "body": [
+          "const WSUtil = require('dw/ws/WSUtil');"
+      ],
+      "description": "Class WSUtil"
+  }
 }
