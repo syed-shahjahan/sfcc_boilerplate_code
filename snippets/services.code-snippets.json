@@ -1,8 +1,9 @@
 {
     "LocalServiceRegistry Service": {
-        "prefix": "@rservice",
+        "prefix": "lsr",
         "body": [
-            "var $service = dw.svc.LocalServiceRegistry.createService(\"$2\", {",
+            "var LocalServiceRegistry = require('dw/svc/LocalServiceRegistry');",
+            "var $service = LocalServiceRegistry.createService(\"$2\", {",
             "    mockCall : function(service, params) {",
             "        return {};",
             "    },",

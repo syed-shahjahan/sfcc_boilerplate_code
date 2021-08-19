@@ -16,6 +16,17 @@
         ],
         "description": "Create a New Server"
     },
+    "New a Route": {
+      "prefix": "newroute",
+      "body": [
+        "server.${1|get,post,use|}('${2:route}', function(req, res, next) {",
+        "    ${4}",
+        "    res.${5|render,json,xml,page,redirect,getViewData,setViewData,log,print|}(${6});",
+        "    next();",
+        "});"
+      ],
+      "description": "Extend a Route"
+    },
     "Extend a Server": {
       "prefix": "extsrv",
       "body": [

@@ -63,10 +63,11 @@ server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {
 ---
 ## Registry
 
-**Keyword:** @rservice
+**Keyword:** lcr
 **Code:**
 ```
-var $service = dw.svc.LocalServiceRegistry.createService(\$2\, {
+var LocalServiceRegistry = require('dw/svc/LocalServiceRegistry');
+var $service = LocalServiceRegistry.createService(\$2\, {
     mockCall : function(service, params) {
         return {};
     },

@@ -7,10 +7,45 @@
         "description": "Get SitePreference Value"
       },
       "Get OrganizationPreference Value": {
-        "prefix": "syspref",
+        "prefix": "globalpref",
         "body": [
           "${'${pref}' in dw.system.System.getPreferences().getCustom() ? dw.system.System.getPreferences().getCustom()['${pref}'] : ''}"
         ],
         "description": "Get Organization Preference Value"
+      },
+      "Resource message": {
+        "prefix": "rmsg",
+        "body": [
+          "${Resource.msg('${0}', '${1}', null)}"
+        ],
+        "description": "Resource message"
+      },
+      "Resource message with parameters": {
+        "prefix": "rmsgf",
+        "body": [
+          "${Resource.msg('${0}', '${1}', null, ${2})}"
+        ],
+        "description": "Resource message with parameters"
+      },
+      "Print Resource message": {
+        "prefix": "prmsg",
+        "body": [
+          "<isprint value=\"${Resource.msg('${0}', '${1}', null)}\"\/\\>"
+        ],
+        "description": "Print Resource message"
+      },
+      "Print Resource message with parameters": {
+        "prefix": "prmsg",
+        "body": [
+          "<isprint value=\"${Resource.msg('${0}', '${1}', null, ${2})}\"\/\\>"
+        ],
+        "description": "Print Resource message"
+      },
+      "URLUtils": {
+        "prefix": "url",
+        "body": [
+          "${URLUtils.url('Product-Show')}"
+        ],
+        "description": "URLUtils url"
       }
 }

@@ -3,11 +3,21 @@
     "displayName": "SFCC BoilerPlate",
     "description": "SFCC Boiler Plate for easy code",
     "version": "0.0.1",
-    "publisher": "Syed Shahjahan",
-    "author": {"name": "Syed Shahjahan"},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/syed-shahjahan/sfcc_boilerplate_code.git"
+    },
+    "keywords": [
+        "cartridge",
+        "SFRA",
+        "Salesforce"
+    ],
+    "publisher": "S I Syed Shahjahan",
+    "author": {"name": "S I Syed Shahjahan"},
     "engines": {
         "vscode": "^1.46.0"
     },
+    "icon": "images/icon.png",
     "categories": [
         "Snippets"
     ],
@@ -15,7 +25,7 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.code-snippets.json"
+                "path": "./snippets/services.code-snippets.json"
             },
             {
                 "language": "javascript",
@@ -28,6 +38,10 @@
             {
                 "language": "javascript",
                 "path": "./snippets/server.code-snippets.json"
+            },
+            {
+                "language": "isml",
+                "path": "./snippets/ismlhtml.code-snippets.json"
             }
         ]
     }
