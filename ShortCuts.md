@@ -16,6 +16,16 @@ server.${1|get,post,use|}('${2:route}', function(req, res, next) {
 module.exports = server.exports();
 ```
 
+**Keyword:** newroute
+**Code:**
+```
+server.${1|get,post,use|}('${2:route}', function(req, res, next) {
+    ${4};
+    res.${5|render,json,xml,page,redirect,getViewData,setViewData,log,print|}(${6});
+    next();
+});
+```
+
 **Keyword:** extsrv
 **Code:**
 ```
