@@ -12,7 +12,7 @@
         "SFRA",
         "Salesforce"
     ],
-    "publisher": "S I Syed Shahjahan",
+    "publisher": "novacode",
     "author": {"name": "S I Syed Shahjahan"},
     "engines": {
         "vscode": "^1.46.0"
