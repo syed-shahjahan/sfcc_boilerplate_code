@@ -1,6 +1,7 @@
 ## Controller
 
 **Keyword:** newsrv
+
 **Code:**
 ```
 'use strict';
@@ -17,6 +18,7 @@ module.exports = server.exports();
 ```
 
 **Keyword:** newroute
+
 **Code:**
 ```
 server.${1|get,post,use|}('${2:route}', function(req, res, next) {
@@ -27,6 +29,7 @@ server.${1|get,post,use|}('${2:route}', function(req, res, next) {
 ```
 
 **Keyword:** extsrv
+
 **Code:**
 ```
 'use strict';
@@ -44,6 +47,7 @@ module.exports = server.exports();
 ```
 
 **Keyword:** extroute
+
 **Code:**
 ```
 server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {
@@ -57,14 +61,15 @@ server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {
 
 
 **Keyword:** sitepref
+
 **Code:**
 ```
 ```
 
 |Shortcut | Code|
 -------|---------
-|sitepref|${dw.system.Site.getCurrent().getCustomPreferenceValue('${1}')}|
-|syspref|${'${pref}' in dw.system.System.getPreferences().getCustom() ? dw.system.System.getPreferences().getCustom()['${pref}'] : ''}|
+|sitepref|`${dw.system.Site.getCurrent().getCustomPreferenceValue('${1}')}`|
+|globalpref|`${'${pref}' in dw.system.System.getPreferences().getCustom() ? dw.system.System.getPreferences().getCustom()['${pref}'] : ''}`|
 
 ---
 ## Packages
@@ -74,6 +79,7 @@ server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {
 ## Registry
 
 **Keyword:** lcr
+
 **Code:**
 ```
 var LocalServiceRegistry = require('dw/svc/LocalServiceRegistry');
