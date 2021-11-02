@@ -4,7 +4,7 @@ This extension provides a Salesforce Commerce Cloud B2C BoilerPlate Code for eas
 
 ## Installation
 
-SFCC Boiler Plate Code can be [installed from the Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) or by [searching within VS Code](https://code.visualstudio.com/docs/editor/extension-gallery#_search-for-an-extension).
+SFCC Boiler Plate Code can be [installed from the Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=novacode.sfccboilerplate) or by [searching within VS Code](https://code.visualstudio.com/docs/editor/extension-gallery#_search-for-an-extension).
 
 
 ## Release Notes
