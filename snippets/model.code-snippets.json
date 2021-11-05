@@ -1,0 +1,18 @@
+{
+    "Extend New Model": {
+        "prefix": "extmodel",
+        "body": [
+        "'use strict';",
+        "",
+        "var base = module.superModule;",
+        "",
+        "function ${fnName}(param1, param2) {",
+        "    base.call(this, param1, param2);",
+        "}",
+        "",
+        "module.exports = ${fnName};",
+        ""
+        ],
+        "description": "Extend New Model"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "Extend New Script - Method 1": {
+        "prefix": "extscript_1",
+        "body": [
+          "'use strict';",
+          "",
+          "var base = module.superModule;",
+          "",
+          "function ${fnName}(param1, param2) {",
+          "    var ${1} = base.fnName(parameter1, parameter2);",
+          "    // ...Your logic...",
+          "    return ${2};",
+          "}",
+          "",
+          "module.exports = eassign(base, {",
+          "    ${fnName}: ${fnName}",
+          "});"
+        ],
+        "description": "Extend New Script"
+    },
+    "Extend New Script - Method 2": {
+        "prefix": "extscript_2",
+        "body": [
+          "'use strict';",
+          "",
+          "var base = module.superModule;",
+          "",
+          "base.${fname}= function () {",
+          "    // Your logic...",
+          "};",
+          "",
+          "module.exports = base;"
+        ],
+        "description": "Extend New Script"
+    }
+}
