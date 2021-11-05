@@ -40,6 +40,14 @@
                 "path": "./snippets/server.code-snippets.json"
             },
             {
+                "language": "javascript",
+                "path": "./snippets/script.code-snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/model.code-snippets.json"
+            },
+            {
                 "language": "isml",
                 "path": "./snippets/ismlhtml.code-snippets.json"
             }
