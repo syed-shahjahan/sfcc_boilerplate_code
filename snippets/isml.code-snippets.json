@@ -35,7 +35,7 @@
         "description": "Print Resource message"
       },
       "Print Resource message with parameters": {
-        "prefix": "prmsg",
+        "prefix": "prmsgf",
         "body": [
           "<isprint value=\"${Resource.msg('${0}', '${1}', null, ${2})}\"\/\\>"
         ],
