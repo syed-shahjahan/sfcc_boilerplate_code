@@ -4,7 +4,7 @@ All notable changes to the "sfccboilerplate" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-### [2.0.1]
+### [2.0.1] [2.0.2] [2.0.3]
 * Add extend general snippets for server-side javascript files
 ### [2.0.0]
 * Add extend model

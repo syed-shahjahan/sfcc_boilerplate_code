@@ -6,7 +6,7 @@
             "",
             "var server = require('server');",
             "",
-            "server.${1|get,post,use|}('${2:route}', function(req, res, next) {",
+            "server.${1|get,post,use|}('${2:route}', function (req, res, next) {",
             "    ${5}",
             "    res.${3|render,json,xml,page,redirect,getViewData,setViewData,log,print|}(${4});",
             "    next();",
@@ -19,7 +19,7 @@
     "New a Route": {
       "prefix": "newroute",
       "body": [
-        "server.${1|get,post,use|}('${2:route}', function(req, res, next) {",
+        "server.${1|get,post,use|}('${2:route}', function (req, res, next) {",
         "    ${4}",
         "    res.${5|render,json,xml,page,redirect,getViewData,setViewData,log,print|}(${6});",
         "    next();",
@@ -35,7 +35,7 @@
         "var server = require('server');",
         "server.extend(module.superModule);",
         "",
-        "server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {",
+        "server.${1|append,prepend,replace|}('${2:route}', function (req, res, next) {",
         "    ${4}",
         "    res.${5|render,json,xml,page,redirect,getViewData,setViewData,log,print|}(${6});",
         "    next();",
@@ -48,7 +48,7 @@
     "Extend a Route": {
       "prefix": "extroute",
       "body": [
-        "server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {",
+        "server.${1|append,prepend,replace|}('${2:route}', function (req, res, next) {",
         "    ${4}",
         "    res.${5|render,json,xml,page,redirect,getViewData,setViewData,log,print|}(${6});",
         "    next();",
