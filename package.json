@@ -32,10 +32,6 @@
                 "path": "./snippets/packages.code-snippets.json"
             },
             {
-                "language": "isml",
-                "path": "./snippets/isml.code-snippets.json"
-            },
-            {
                 "language": "javascript",
                 "path": "./snippets/server.code-snippets.json"
             },
@@ -48,8 +44,16 @@
                 "path": "./snippets/model.code-snippets.json"
             },
             {
+                "language": "javascript",
+                "path": "./snippets/nugget.code-snippets.json"
+            },
+            {
                 "language": "isml",
                 "path": "./snippets/ismlhtml.code-snippets.json"
+            },
+            {
+                "language": "isml",
+                "path": "./snippets/isml.code-snippets.json"
             }
         ]
     }
