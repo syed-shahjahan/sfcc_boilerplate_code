@@ -1,0 +1,51 @@
+{
+    "Get ViewData": {
+        "prefix": ["gvd", "getviewdata"],
+        "body": [
+          "var viewData = res.getViewData();"
+        ],
+        "description": "Get ViewData"
+      },
+      "Set ViewData": {
+        "prefix": ["svd", "setviewdata"],
+        "body": [
+          "res.setViewData({ key: 'value' });"
+        ],
+        "description": "Set ViewData"
+      },
+      "Get SitePreference Value": {
+        "prefix": ["spref", "sitepref"],
+        "body": [
+          "dw.system.Site.getCurrent().getCustomPreferenceValue('${1}')"
+        ],
+        "description": "Get SitePreference Value"
+      },
+      "Get OrganizationPreference Value": {
+        "prefix": ["gpref", "globalpref"],
+        "body": [
+          "'${pref}' in dw.system.System.getPreferences().getCustom() ? dw.system.System.getPreferences().getCustom()['${pref}'] : ''"
+        ],
+        "description": "Get Organization Preference Value"
+      },
+      "Resource message": {
+        "prefix": ["rmsg", "resourcemessage"],
+        "body": [
+          "Resource.msg('${0}', '${1}', null)"
+        ],
+        "description": "Resource message"
+      },
+      "Resource message with parameters": {
+        "prefix": ["rmsgf", "resourcemessagef"],
+        "body": [
+          "${Resource.msg('${0}', '${1}', null, ${2})}"
+        ],
+        "description": "Resource message with parameters"
+      },
+      "URLUtils": {
+        "prefix": "url",
+        "body": [
+          "${URLUtils.url('Product-Show')}"
+        ],
+        "description": "URLUtils url"
+      }
+}
