@@ -5,6 +5,7 @@
           "'use strict';",
           "",
           "var base = module.superModule;",
+          "var assign = require('server/assign');",
           "",
           "function ${fnName}(param1, param2) {",
           "    var ${1} = base.fnName(parameter1, parameter2);",
@@ -12,7 +13,7 @@
           "    return ${2};",
           "}",
           "",
-          "module.exports = eassign(base, {",
+          "module.exports = assign(base, {",
           "    ${fnName}: ${fnName}",
           "});"
         ],
