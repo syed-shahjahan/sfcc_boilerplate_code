@@ -22,10 +22,10 @@ Initial release, contains the following features,
 * Packages
 * ISML custom preferences
 
-## Snippets
+## 🧩 Snippets
 Below is a list of all available snippets and the keywords of each one.
 
-### Controller Snippets
+### 🧩 Controller Snippets
 
 **Keyword:** `newsrv`
 
@@ -91,7 +91,7 @@ server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {
 module.exports = server.exports();
 ```
 ---
-### Script
+### 🧩 Script
 **Keyword:** `expmodule, module.exports, mexpo`
 
 **Snippet:**
@@ -101,7 +101,7 @@ module.exports = {
 };
 ```
 ---
-### ISML
+### 🧩 ISML
 
 
 **Keyword:** sitepref
@@ -116,7 +116,7 @@ module.exports = {
 
 
 ---
-### Registry Snippet
+### 🧩 Registry Snippet
 
 **Keyword:** `lcr`
 
@@ -148,7 +148,7 @@ var $service = LocalServiceRegistry.createService(\$2\, {
 });
 ```
 ---
-### Javascript snippets
+### 🧩 Javascript snippets
 
 
 |Shortcut | Code|
@@ -161,3 +161,10 @@ var $service = LocalServiceRegistry.createService(\$2\, {
 |`instanceof, io`|`${1:source} instanceof ${2:Object}`|
 |`oa, object.assign, objectassign`|`Object.assign({}, ${1:original}, ${2:source})`|
 ---
+
+## 👋 Author
+Syed Shahjahan syedz.syed177@gmail.com
+
+## © LICENSE (MIT)
+
+See LICENSE.md in the root directory
