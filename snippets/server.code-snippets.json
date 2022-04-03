@@ -55,5 +55,21 @@
         "});"
       ],
       "description": "Extend a Route"
+    },
+    "Export server module": {
+      "prefix": ["expmodule", "module.exports", "mexpo"],
+      "body": [
+        "module.exports = server.exports();"
+      ],
+      "description": "Export server module"
+    },
+    "Export server module 2": {
+      "prefix": ["expmodule", "module.exports", "mexpo"],
+      "body": [
+        "module.exports = {",
+        "  ${1:member}",
+        "};"
+      ],
+      "description": "Export server module 2"
     }
 }

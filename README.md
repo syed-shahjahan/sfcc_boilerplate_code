@@ -83,15 +83,28 @@ server.${1|append,prepend,replace|}('${2:route}', function(req, res, next) {
     next();
 });
 ```
+
+**Keyword:** `expmodule, module.exports, mexpo`
+
+**Snippet:**
+```
+module.exports = server.exports();
+```
+---
+### Script
+**Keyword:** `expmodule, module.exports, mexpo`
+
+**Snippet:**
+```
+module.exports = {
+    ${1:member}
+};
+```
 ---
 ### ISML
 
 
 **Keyword:** sitepref
-
-**Snippet:**
-```
-```
 
 |Shortcut | Code|
 -------|---------
@@ -134,3 +147,17 @@ var $service = LocalServiceRegistry.createService(\$2\, {
     }
 });
 ```
+---
+### Javascript snippets
+
+
+|Shortcut | Code|
+-------|---------
+|`objectCreate, objcreate, objc`|`var ${1} = Object.create(null);`|
+|`object.define, objectdefine, objdef`|`Object.defineProperty(object, '${1}', {enumerable: true,value: ${2}});`|
+|`object.define, objectdefine, objdef`|`Object.defineProperty(object, '${1}', {enumerable: true,value: (function () {${2}}()));`|
+|`require`|`const ${1:module} = require('${1:module}');`|
+|`typeof, to`|`typeof ${1:source} === '${2:undefined}'`|
+|`instanceof, io`|`${1:source} instanceof ${2:Object}`|
+|`oa, object.assign, objectassign`|`Object.assign({}, ${1:original}, ${2:source})`|
+---

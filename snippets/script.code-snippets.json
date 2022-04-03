@@ -33,5 +33,28 @@
           "module.exports = base;"
         ],
         "description": "Extend New Script"
-    }
+    },
+    "Extend New Script - Method 3": {
+        "prefix": "extscript_2",
+        "body": [
+          "'use strict';",
+          "",
+          "var base = module.superModule;",
+          "",
+          "base.${fname}= function () {",
+          "    // Your logic...",
+          "};",
+          "",
+          "module.exports = base;"
+        ],
+        "description": "Extend New Script"
+    },
+    "Export module Member": {
+      "prefix": "expmember",
+        "body": [
+          "exports.${1:member} = ${2:value};"
+        ],
+        "description": "Export module Member"
+    },
+    "Extend Constructor"
 }

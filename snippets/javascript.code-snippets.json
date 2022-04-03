@@ -1,0 +1,64 @@
+{
+    "Create a new empty object": {
+        "prefix": ["objectCreate", "objcreate", "objc"],
+        "body": [
+        "var ${1} = Object.create(null);"
+        ],
+        "description": "Create a new empty object"
+    },
+    "Defines a new property directly on an object": {
+        "prefix": ["object.define", "objectdefine", "objdef"],
+        "body": [
+          "Object.defineProperty(object, '${1}', {",
+          "    enumerable: true,",
+          "    value: ${2}",
+          "});"
+        ],
+        "description": "Defines a new property directly on an object"
+    },
+    "Defines a new property directly on an object - 2": {
+        "prefix": ["object.define", "objectdefine", "objdef"],
+        "body": [
+          "Object.defineProperty(object, '${1}', {",
+          "    enumerable: true,",
+          "    value: (function () {${2}}())",
+          "});"
+        ],
+        "description": "Defines a new property directly on an object - 2"
+    },
+    "Require module": {
+        "prefix": "require",
+        "body": [
+          "const ${1:module} = require('${1:module}');"
+        ],
+        "description": "Require module"
+    },
+    "Check typeof": {
+        "prefix": ["typeof", "to"],
+        "body": [
+          "typeof ${1:source} === '${2:undefined}'"
+        ],
+        "description": "Check typeof"
+    },
+    "Check instanceof object": {
+        "prefix": ["instanceof", "io"],
+        "body": [
+          "${1:source} instanceof ${2:Object}"
+        ],
+        "description": "Check instanceof object"
+    },
+    "Assign source object to destination object": {
+        "prefix": ["oa", "object.assign", "objectassign"],
+        "body": [
+          "Object.assign(${1:dest}, ${2:source})"
+        ],
+        "description": "Assign source object to destination object"
+    },
+    "Copy or merge assign object": {
+        "prefix": ["oa", "object.assign", "objectassign"],
+        "body": [
+          "Object.assign({}, ${1:original}, ${2:source})"
+        ],
+        "description": "Copy or merge assign object"
+    }
+}
