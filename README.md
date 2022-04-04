@@ -163,7 +163,7 @@ var $service = LocalServiceRegistry.createService(\$2\, {
 ---
 
 ## 👋 Author
-Syed Shahjahan syedz.syed177@gmail.com
+Syed Shahjahan
 
 ## © LICENSE (MIT)
 
