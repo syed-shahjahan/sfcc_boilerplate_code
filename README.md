@@ -10,17 +10,7 @@ SFCC Boiler Plate Code can be [installed from the Visual Studio Code Marketplace
 ![Demo](https://raw.githubusercontent.com/syed-shahjahan/sfcc_boilerplate_code/master/images/preference_gif.gif)
 ## Release Notes
 
-### 1.1.0
-* Updated README.md file
-### 1.0.0
-
-Initial release, contains the following features,
-* Create a new Server/Controller JS
-* Extend a Server/Controller JS
-* Create a New Route
-* Extend a Route
-* Packages
-* ISML custom preferences
+Find the release notes in CHANGELOG.md file.
 
 ## 🧩 Snippets
 Below is a list of all available snippets and the keywords of each one.
@@ -160,6 +150,7 @@ var $service = LocalServiceRegistry.createService(\$2\, {
 |`typeof, to`|`typeof ${1:source} === '${2:undefined}'`|
 |`instanceof, io`|`${1:source} instanceof ${2:Object}`|
 |`oa, object.assign, objectassign`|`Object.assign({}, ${1:original}, ${2:source})`|
+
 ---
 
 ## 👋 Author

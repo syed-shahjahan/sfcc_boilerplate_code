@@ -1,0 +1,38 @@
+{
+    "Get Cookie value": {
+        "prefix": ["get cookie, getcookie, getCookie"],
+        "body": [
+            "/**",
+            " * Get cookie value passing cookie name as input parameter",
+            " *",
+            " * @param  {string} cookieName - Cookie name to get",
+            " */",
+            "function getCookieValue(cookieName) {",
+            "    return request.getHttpCookies()[cookieName];",
+            "}"
+        ],
+        "description": "Get Cookie value"
+    },
+    "Create new cookie and set value, age to the cookie": {
+        "prefix": ["setCookie", "set Cookie", "set cookie"],
+        "body": [
+            "/**",
+            " * Create new cookie. Set value and age of the cookie",
+            " *",
+            " * @param  {string} name - the name for the cookie.",
+            " * @param  {string} value - the cookie's value.",
+            " * @param  {Number} age - maximum age of the cookie in seconds",
+            " */",
+            "function setCookie(name, value, age) {",
+            "    const Cookie = require('dw/web/Cookie');",
+            "    const DEFAULT_AGE = 31536000;",
+            "",
+            "    let cookie = new Cookie(name, value);",
+            "    cookie.setMaxAge(age ? age : DEFAULT_AGE);",
+            "    cookie.setPath('/');",
+            "    response.addHttpCookie(cookie);",
+            "}"
+        ],
+        "description": "Create new cookie and set value, age to the cookie"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "Convert GMT to Other Timezones": {
+        "prefix": ["gettimezonespecificdate", "getTimezoneDate", "timezone"],
+        "body": [
+            "/**",
+            " * Return localized formatted date",
+            " *",
+            " * Note: We can not get the timezone based timestamp.",
+            " * Alternatively, we can get by formatting using `StringUtils` or print individually like `cal.get(dw.util.Calendar.DAY_OF_WEEK)`",
+            " *",
+            " * @param {Date} dateObj - Date object in GMT",
+            " * @param {string} format - Date Formatting Scheme",
+            " *",
+            " * @return {string} Formatted string",
+            " */",
+            "function getTimeZoneSpecificDate(dateObj, format) {",
+            "    var Calendar = require('dw/util/Calendar');",
+            "    var StringUtils = require('dw/util/StringUtils');",
+            "    var Site = require('dw/system/Site');",
+            "",
+            "    var cal = new Calendar(new Date(dateObj));",
+            "    cal.setTimeZone(Site.getCurrent().timezone);",
+            "",
+            "    return StringUtils.formatCalendar(cal, format);",
+            "}",
+            "",
+            "// var format = 'EEEE, MM/dd/yy hh:mm a z';",
+            "// return getTimeZoneSpecificDate(new Date(), format);",
+            ""
+        ],
+        "description": "Convert GMT to Other Timezones"
+    }
+}

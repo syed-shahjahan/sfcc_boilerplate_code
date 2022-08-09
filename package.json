@@ -2,7 +2,7 @@
     "name": "sfccboilerplate",
     "displayName": "SFCC BoilerPlate",
     "description": "SFCC Boiler Plate for easy code",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "repository": {
         "type": "git",
         "url": "https://github.com/syed-shahjahan/sfcc_boilerplate_code.git"
@@ -10,6 +10,8 @@
     "keywords": [
         "cartridge",
         "SFRA",
+        "Salesforce Commerce Cloud",
+        "Demandware",
         "Salesforce"
     ],
     "publisher": "novacode",
@@ -48,12 +50,20 @@
                 "path": "./snippets/nugget.code-snippets.json"
             },
             {
-                "language": "isml",
-                "path": "./snippets/ismlhtml.code-snippets.json"
+                "language": "javascript",
+                "path": "./snippets/utils/calendar-date-snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/utils/cookie-snippets.json"
             },
             {
                 "language": "isml",
-                "path": "./snippets/isml.code-snippets.json"
+                "path": "./snippets/ismlTemplate/ismlhtml.code-snippets.json"
+            },
+            {
+                "language": "isml",
+                "path": "./snippets/ismlTemplate/isml.code-snippets.json"
             }
         ]
     }
