@@ -1,0 +1,36 @@
+{
+    "Extend Product Factory": {
+        "prefix": ["extprdfactory", "extendproductfactory"],
+        "body": [
+            "'use strict';",
+            "",
+            "var base = module.superModule;",
+            "var baseGet = base.get;",
+            "",
+            "var ProductMgr = require('dw/catalog/ProductMgr');",
+            "",
+            "base.get = function (params) {",
+            "    var productId = params.pid;",
+            "    var product = Object.create(null);",
+            "    var apiProduct = ProductMgr.getProduct(productId);",
+            "    if (apiProduct === null) {",
+            "        return product;",
+            "    }",
+            "",
+            "    var options;",
+            "    switch (params.pview) {",
+            "        case 'basicInfo':",
+            "            // product = basicInfo(product, apiProduct);",
+            "            break;",
+            "        default:",
+            "            product = baseGet.call(this, params);",
+            "    }",
+            "",
+            "    return product;",
+            "};",
+            "module.exports = base;",
+            ""
+        ],
+        "description": "Extend Product Factory"
+    }
+}

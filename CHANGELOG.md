@@ -8,6 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Add get and set Cookie snippets with JSDoc functions
 * Add snippet function to Convert GMT to Other Timezones
 * Restructure files and folders to organize easily
+* Add Extend product factory
 ### [2.0.4]
 * Add new javascript object related snippets
 ### [2.0.1] [2.0.2] [2.0.3]

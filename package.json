@@ -58,6 +58,10 @@
                 "path": "./snippets/utils/cookie-snippets.json"
             },
             {
+                "language": "javascript",
+                "path": "./snippets/factories/product.code-snippets.json"
+            },
+            {
                 "language": "isml",
                 "path": "./snippets/ismlTemplate/ismlhtml.code-snippets.json"
             },
