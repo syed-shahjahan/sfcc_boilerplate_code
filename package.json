@@ -31,11 +31,11 @@
             },
             {
                 "language": "javascript",
-                "path": "./snippets/packages.code-snippets.json"
+                "path": "./snippets/server.code-snippets.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/server.code-snippets.json"
+                "path": "./snippets/packages.code-snippets.json"
             },
             {
                 "language": "javascript",
