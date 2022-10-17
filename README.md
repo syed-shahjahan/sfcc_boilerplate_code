@@ -13,7 +13,7 @@ SFCC Boiler Plate Code can be [installed from the Visual Studio Code Marketplace
 Find the release notes in CHANGELOG.md file.
 
 ## 🧩 Snippets
-Below is a list of all available snippets and the keywords of each one.
+Below are the list of few snippets and the keywords of each one.
 
 ### 🧩 Controller Snippets
 

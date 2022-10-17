@@ -1,0 +1,17 @@
+{
+    "Add new Model": {
+        "prefix": ["extmodel", "model", "new model"],
+        "body": [
+          "'use strict';",
+          "",
+          "module.exports = function (object, product) {",
+          "    Object.defineProperty(object, 'gcType', {",
+          "        enumerable: true,",
+          "        value: product.custom.gcType",
+          "    });",
+          "};",
+          ""
+        ],
+        "description": "Add new Model"
+      }
+}
