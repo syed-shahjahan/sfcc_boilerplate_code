@@ -2,7 +2,7 @@
     "name": "sfccboilerplate",
     "displayName": "SFCC BoilerPlate",
     "description": "SFCC Boiler Plate for easy code",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "repository": {
         "type": "git",
         "url": "https://github.com/syed-shahjahan/sfcc_boilerplate_code.git"
@@ -51,6 +51,14 @@
             },
             {
                 "language": "javascript",
+                "path": "./snippets/javascript.code-snippets..json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/decorator.code-snippets.json"
+            },
+            {
+                "language": "javascript",
                 "path": "./snippets/utils/calendar-date-snippets.json"
             },
             {
@@ -64,10 +72,6 @@
             {
                 "language": "javascript",
                 "path": "./snippets/service/credential.code-snippets.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/decorator.code-snippets.json"
             },
             {
                 "language": "isml",
