@@ -4,6 +4,8 @@ All notable changes to the "sfccboilerplate" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### [2.1.3]
+* Fix: javascript snippets not rendered in suggestion
 ### [2.1.2]
 * Add javascript snippet accessible
 ### [2.1.1]
