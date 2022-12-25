@@ -60,5 +60,28 @@
           "Object.assign({}, ${1:original}, ${2:source})"
         ],
         "description": "Copy or merge assign object"
+    },
+    "Object keys": {
+        "prefix": ["ok", "object.keys", "objectkeys"],
+        "body": [
+          "let keys = Object.assign(${1:original})"
+        ],
+        "description": "get Object keys array"
+    },
+    "Object Entries": {
+        "prefix": ["oe", "object.entries", "objectentries"],
+        "body": [
+          "Object.entries(obj).forEach(([key, value]) => {",
+          "    let key = key;",
+          "    let value = value;",
+          "});",
+          "",
+          "",
+          "for (const [key, value] of Object.entries(object)) {",
+          "    let key = key;",
+          "    let value = value;",
+          "}"
+        ],
+        "description": "get Object entries array"
     }
 }

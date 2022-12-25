@@ -37,14 +37,14 @@
       "Resource message with parameters": {
         "prefix": ["rmsgf", "resourcemessagef"],
         "body": [
-          "${Resource.msg('${0}', '${1}', null, ${2})}"
+          "Resource.msgf('${0}', '${1}', null, ${2})"
         ],
         "description": "Resource message with parameters"
       },
       "URLUtils": {
         "prefix": "url",
         "body": [
-          "${URLUtils.url('Product-Show')}"
+          "URLUtils.url('Product-Show')"
         ],
         "description": "URLUtils url"
       }
