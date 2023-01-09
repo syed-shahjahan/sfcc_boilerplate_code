@@ -25,6 +25,14 @@
             "    getResponseLogMessage: function(serviceResponse) {",
             "        return serviceResponse;",
             "    }",
+            "    mockCall: function(service) {",
+            "        var mockResponse = {}",
+            "        return {",
+            "            statusCode: 200,",
+            "            statusMessage: 'OK',",
+            "            text: mockResponse",
+            "        };",
+            "    }",
             "});"
         ]
     }

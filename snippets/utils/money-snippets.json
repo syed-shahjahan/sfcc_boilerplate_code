@@ -1,0 +1,11 @@
+{
+    "Format Money snippet": {
+        "prefix": ["formatmoney", "fm"],
+        "body": [
+            "let moneyObject = new Money(amount, session.getCurrency().currencyCode);",
+            "let formatMoney = require('dw/util/StringUtils').formatMoney;",
+            "let formattedMoney = formatMoney(moneyObject);"
+        ],
+        "description": "Format Money snippet"
+    }
+}
