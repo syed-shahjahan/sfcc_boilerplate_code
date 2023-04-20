@@ -5,9 +5,9 @@
           "'use strict';",
           "",
           "module.exports = function (object, product) {",
-          "    Object.defineProperty(object, 'gcType', {",
+          "    Object.defineProperty(object, '${1}', {",
           "        enumerable: true,",
-          "        value: product.custom.gcType",
+          "        value: product.custom.${1}",
           "    });",
           "};",
           ""
