@@ -24,7 +24,7 @@
             "    },",
             "    getResponseLogMessage: function(serviceResponse) {",
             "        return serviceResponse;",
-            "    }",
+            "    },",
             "    mockCall: function(service) {",
             "        var mockResponse = {}",
             "        return {",
